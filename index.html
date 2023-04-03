@@ -15,25 +15,34 @@
 </head>
 
 <body>
-
-  <header class="container-fluid sticky-top navbar-expand-lg no-gutters">
-    <div id="logo">
-    <h1 class="navbar-brand">JuicyJuice</h1></div>
-    <nav class="navbar">
-        <!-- BOOTSTRAP BUTTON -->
-        <div class="dropdown navbar-right">
-          <button type="button" id="menubutton" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-            Menu
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item active" aria-current="page" href="index.html">Home</a></li>
-            <li><a class="dropdown-item" href="#">Menu</a></li>
-            <li><a class="dropdown-item" href="#">Subscribe</a></li>
+  <!-- BOOTSTRAP NAVBAR          -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="logo" href="index.html"><h1>Juice</h1></a>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+             <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="menu-button" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MENU
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html" aria-current="page">Home</a></li>
+              <li><a class="dropdown-item" href="#">Juice Menu</a></li>
+              <!--li><hr class="dropdown-divider"></li-->
+              <li><a class="dropdown-item" href="#">Subscribe</a></li>
+            </ul>
+          </li>
           </ul>
-        </div>
-          <!-- BOOTSTRAP BUTTON END-->
-    </nav>
- </header>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" id="search-button" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- END OF BOOTSTRAP NAVBAR-->
+
+<footer>kfgdjkfg</footer>
 </body>
 
 </html>

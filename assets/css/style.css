@@ -15,17 +15,48 @@ html {
   }
   
   body 
-  { background-image: url("../assets/images/citrus.avif");
-    background-size: 100%;
-   background-repeat: no-repeat;
+   { 
     background-color: #ea861a;
-   font-family: 'Viga', sans-serif;
+   background-repeat: no-repeat;
+   font-family: "Viga", sans-serif;
    }
 
-    /*----------------------NAVIGATION*/
+    /*----------------------NAVIGATION BAR */
+    
+    .navbar {
+      background-color: #084208;
+      border-bottom: 10px dotted #c92324;
+      position: sticky;
+      top: 0;
+      display: inline-block;
+            }
 
-    header {
-    background-color: #084208;
-    position: sticky;
-    height: 15%;
+    #logo {
+      color: #c92324;
+      font-family: "Viga", sans-serif;
+      text-align: left;
+      display: inline-block;
+        }
+
+    #menu-button {
+      color: #f4f7f9;
+      background-color: #c92324;
+      text-align: center;
+      margin-right: 10px;
+      text-transform: uppercase;
+      
     }
+
+    #search-button {
+      background-color: #c92324;
+      text-align: center;
+      color: #f4f7f9;
+      text-transform: uppercase;
+          }
+
+          /*----------------------FOOTER */
+
+footer {
+  background-color: black;
+  height: 50px;
+}
