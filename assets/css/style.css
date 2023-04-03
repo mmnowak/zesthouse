@@ -1,6 +1,8 @@
 /* -------------------------------COLOURS 
 #c92324
 #084208
+#ea861a
+#f4f7f9;
 */
 
 html {
@@ -16,9 +18,11 @@ html {
   
   body 
    { 
-    background-color: #ea861a;
-   background-repeat: no-repeat;
-   font-family: "Viga", sans-serif;
+    background-color: #ea861a !important;
+    background-image: url("../images/citrus.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Viga", sans-serif;
    }
 
     /*----------------------NAVIGATION BAR */
@@ -29,21 +33,24 @@ html {
       position: sticky;
       top: 0;
       display: inline-block;
-            }
+             }
 
     #logo {
       color: #c92324;
       font-family: "Viga", sans-serif;
       text-align: left;
       display: inline-block;
-        }
+      text-shadow: 2px 2px 2px #ea861a;
+      ;
+          }
 
     #menu-button {
       color: #f4f7f9;
       background-color: #c92324;
       text-align: center;
-      margin-right: 10px;
+      margin-right: 20px;
       text-transform: uppercase;
+      font-family: 'Anek Bangla', sans-serif;
       
     }
 
@@ -52,11 +59,31 @@ html {
       text-align: center;
       color: #f4f7f9;
       text-transform: uppercase;
+      font-family: 'Anek Bangla', sans-serif;
           }
 
-          /*----------------------FOOTER */
 
-footer {
-  background-color: black;
-  height: 50px;
-}
+     /*----------------------HERO*/
+
+
+    .heading-style {
+      font-family: "Viga", sans-serif;
+      color: #084208;
+          }
+
+    .paragraph-style {
+      font-family: 'Anek Bangla', sans-serif;
+      color: #084208;
+          }
+
+    #hero {
+      background-color: rgba(234, 134, 26, 0.8);
+      margin: 5% 10% 0 10%;  
+      text-align: center;
+            }
+
+      /*----------------------FOOTER*/
+     footer {
+      background-color: #084208;
+      color: #f4f7f9;
+          }       
