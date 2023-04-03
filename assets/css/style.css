@@ -1,0 +1,31 @@
+/* -------------------------------COLOURS 
+#c92324
+#084208
+*/
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body 
+  { background-image: url("../assets/images/citrus.avif");
+    background-size: 100%;
+   background-repeat: no-repeat;
+    background-color: #ea861a;
+   font-family: 'Viga', sans-serif;
+   }
+
+    /*----------------------NAVIGATION*/
+
+    header {
+    background-color: #084208;
+    position: sticky;
+    height: 15%;
+    }
