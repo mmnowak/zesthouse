@@ -2,25 +2,27 @@
 #c92324
 #084208
 #ea861a
-#f4f7f9;
+#f4f7f9
+#f2d363
 */
 
 html {
     height: 100%;
     width: 100%;
-    overflow: scroll;
-  }
+    overflow-y: scroll;
+      }
   
    body 
    { 
     background-color: #ea861a !important;
+    font-family: "Viga", sans-serif;
     background-image: url("../images/citrus.avif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    font-family: "Viga", sans-serif;
    }
 
-    /*----------------------NAVIGATION BAR */
+   /*----------------------NAVIGATION BAR */
     
     .navbar {
       background-color: #084208;
@@ -34,7 +36,7 @@ html {
       color: #c92324;
       font-family: "Viga", sans-serif;
       text-align: left;
-      text-shadow: 2px 2px 2px #ea861a;       
+      text-decoration: none;        
           }
 
      .nav-link {
@@ -48,11 +50,8 @@ html {
       letter-spacing: 1px;
       padding: 3px 5px !important;        
     }
-
-      
-           
-         /*----------------------HERO*/
-
+               
+     /*----------------------HERO*/
 
     .heading-style {
       font-family: "Viga", sans-serif;
@@ -69,10 +68,33 @@ html {
 
     #hero {
       background-color: rgba(242, 211, 99, 0.9);
-      margin: 5% 10%;  
+      margin: 5% 10% 2% 10%;  
       text-align: center;
             }
+    
+    #times h4 {
+      font-family: 'Viga', sans-serif;
+          }
+    
+    #times {
+      background-color: #c92324;
+      color: #f4f7f9;
+      font-family: 'Anek Bangla', sans-serif;
+      width: 200px;
+      text-align: center;
+    }
 
+    table {
+      margin: auto;
+    }
+    
+    table th {
+      border: 2px solid;
+    }
+
+    table td {
+      border: 2px solid;
+    }
 
     /*----------------------ABOUT*/
 
@@ -92,6 +114,7 @@ html {
       background-color: rgba(242, 211, 99, 0.9);
       font-family: 'Anek Bangla', sans-serif;
       color: #084208;
+      text-align: center;
     }
 
     #about h4 {
@@ -106,12 +129,15 @@ html {
       color: #084208;
     }
 
+     /*----------------------CONTACT US*/
 
-
-
-
-
-
+     #contactus {
+      background-color: #c92324;
+      color: #f4f7f9;
+      width: 60%;
+      margin: 6% auto;
+      padding: 5px;
+     }
 
       /*----------------------FOOTER*/
      footer {
@@ -119,7 +145,8 @@ html {
       bottom: 0;
       background-color: #084208;
       color: #f4f7f9;
-          }
+      position: fixed-bottom;
+            }
       
       footer div {
         text-align: center;
@@ -130,7 +157,6 @@ html {
       height: 2.5em !important;
       border-radius: 50% !important;
       background-color: #c92324 !important;
-      text-align: center;
       text-decoration: none;
               }     
 
@@ -143,12 +169,14 @@ html {
       html {
         height: 100%;
         width: 100%;
-        overflow: scroll;
+        overflow-y: scroll;
+        left: 0;
+        right: 0;
       }
 
-                 
-     } 
-
+      body {
+        position: absolute;
+             }
     
     
           
