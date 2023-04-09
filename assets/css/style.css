@@ -8,15 +8,10 @@
 html {
     height: 100%;
     width: 100%;
+    overflow: scroll;
   }
   
-  *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  
-  body 
+   body 
    { 
     background-color: #ea861a !important;
     background-image: url("../images/citrus.avif");
@@ -33,10 +28,7 @@ html {
       position: sticky;
       top: 0;
             }
-
-    .navbar-nav {
-      padding-left: revert;
-    }        
+          
 
     #logo {
       color: #c92324;
@@ -54,10 +46,10 @@ html {
       font-family: 'Anek Bangla', sans-serif;
       text-decoration: none;
       letter-spacing: 1px;
-      padding: 3px 5px 3px 5px !important;        
+      padding: 3px 5px !important;        
     }
 
-    
+      
            
          /*----------------------HERO*/
 
@@ -76,35 +68,86 @@ html {
           }
 
     #hero {
-      background-color: rgba(234, 134, 26, 0.8);
-      margin: 5% 10% 5% 10%;  
+      background-color: rgba(242, 211, 99, 0.9);
+      margin: 5% 10%;  
       text-align: center;
             }
 
+
+    /*----------------------ABOUT*/
+
+    #facilities-container {background-color: #084208;}
+
+    .facilities { 
+      color: #f4f7f9;
+      font-family: 'Anek Bangla', sans-serif;
+    }
+
+    .facilities-img {
+      max-height: 200px;
+      border-radius: 50%;
+    }
+
+    #about {
+      background-color: rgba(242, 211, 99, 0.9);
+      font-family: 'Anek Bangla', sans-serif;
+      color: #084208;
+    }
+
+    #about h4 {
+      padding: 5%;
+    }
+
+    #address {
+      text-align: center;
+      background-color: rgba(242, 211, 99, 0.9);
+      padding: 2em 0;
+      font-family: 'Anek Bangla', sans-serif;
+      color: #084208;
+    }
+
+
+
+
+
+
+
+
       /*----------------------FOOTER*/
      footer {
+      width: 100%;
+      bottom: 0;
       background-color: #084208;
       color: #f4f7f9;
-          }       
+          }
+      
+      footer div {
+        text-align: center;
+      }
+          
+     .social {
+      width: 2.5em !important;
+      height: 2.5em !important;
+      border-radius: 50% !important;
+      background-color: #c92324 !important;
+      text-align: center;
+      text-decoration: none;
+              }     
 
 
 
-     /*-------------------MEDIA QUERIES  
+     /*-------------------MEDIA QUERIES  */  
+
      @media screen and (max-width: 992px){ 
 
       html {
         height: 100%;
         width: 100%;
+        overflow: scroll;
       }
 
-       #menu {
-      flex-direction: row;
-      justify-content: between;
-    }
-
-      
-     } */  
-
+                 
+     } 
 
     
     
