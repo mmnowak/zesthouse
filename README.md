@@ -129,6 +129,8 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
+NAVBAR FROM https://getbootstrap.com/docs/5.3/components/dropdowns/
+
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.

@@ -90,19 +90,7 @@ html {
       text-align: center;
     }
 
-    table {
-      margin: auto;
-    }
-    
-    table th {
-      border: 2px solid;
-    }
-
-    table td {
-      border: 2px solid;
-    }
-
-    /*----------------------ABOUT*/
+   /*----------------------ABOUT*/
 
     #facilities-container {background-color: #084208;}
 
@@ -151,6 +139,7 @@ html {
       bottom: 0;
       background-color: #084208;
       color: #f4f7f9;
+      bottom: 0 !important;
       position: fixed-bottom;
             }
       
@@ -164,11 +153,21 @@ html {
       border-radius: 50% !important;
       background-color: #c92324 !important;
       text-decoration: none;
-              }     
+      border: 2px solid #f4f7f9 !important;
+              }   
+    table {
+    margin: auto;
+     }
+     table th {
+      border: 2px solid;
+              }          
+     table td {
+    border: 2px solid;
+              }        
 
     /*-------------------404 */  
     
-    #404msg {
+    #errormsg {
       background-image: url(https://images.unsplash.com/photo-1582287104445-6754664dbdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
       
     }
@@ -176,8 +175,9 @@ html {
 
 
      /*-------------------MEDIA QUERIES  */  
-
-     @media screen and (max-width: 992px){ 
+     
+     @media screen and (max-width: 992px)
+     { 
 
       html {
         height: 100%;
@@ -191,6 +191,14 @@ html {
         position: absolute;
              }
     
-    
+            }
+
+      @media screen and (min-width: 900px) {
+        .social {
+          margin-top: 10% !important;
+        }
+
+             }
+              
           
 
