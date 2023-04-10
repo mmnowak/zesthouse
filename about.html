@@ -16,34 +16,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- FAVICON -->
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top p-0">
-    <div class="container-fluid">
-      <a class="p-1" id="logo" href="index.html"><h1>ZestHouse</h1></a>
-      <div>
-         <ul class="navbar-nav d-flex flex-row justify-content-sm-center justify-content-md-center" id="menu">   
-              <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="index.html" aria-current="page">Home</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="about.html" aria-current="page">About Us</a></li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-      </div>
+<!-- NAVIGATION BAR-->
+<nav class="navbar sticky-top p-0">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
+<!-- Dropdown button taken from from Bootstrap documentation code snippet, see README file for more info -->
+  <div class="dropdown">
+    <button class="btn navbar-toggler hvr-pulse" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="index.html" >Home</a></li>
+      <li><a class="dropdown-item active" href="about.html" aria-current="true">About Us</a></li>
+      <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+      <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+      <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+     </ul>
     </div>
-  </nav>
+</nav>
 
   <div class="container mb-5 mt-5" style="width: 70%;" id="about"><h4>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl.Lorem ipsum dolor sit amet, consectetur adipi</h4></div>
-
+  Cerys and Megan are two sisters passionate about healthy living and nutritious food. In 2015, they opened up a juice bar called ZestHouse to provide a healthy and convenient option for those wanting to nourish their bodies with natural, wholesome ingredients. Over time, ZestHouse became a fixture in the community, and Cerys and Megan continue to help people live their best, healthiest lives, one sip of juice at a time.
+  </h4></div>
+  
 <div class="container-fluid text-center" id="facilities-container">
   <div class="row ms-3 me-3">
-    <div class="col-md-4 p-4 facilities"><img src="assets/images/toilets.jpg" alt="A picture of toilet paper" class="facilities-img"><h5>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl.</h5></div>
-    <div class="col-md-4 p-4 facilities"><img src="assets/images/desks.jpg" alt="A picture of a deskspace" class="facilities-img"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl.</h5></div>
-    <div class="col-md-4 p-4 facilities"><img src="assets/images/events.jpg" alt="A picture of a family celebrating a little girl's birthday" class="facilities-img"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl.</h5></div>
+    <div class="col-md-4 p-4 facilities"><img src="assets/images/toilets.jpg" alt="A picture of toilet paper" class="facilities-img"><h5>To ensure our juice bar can be enjoyed by all, our toilets were made fully accessible to those with physical disabilities. We also have baby changing facilities on site.</h5></div>
+    <div class="col-md-4 p-4 facilities"><img src="assets/images/desks.jpg" alt="A picture of a deskspace" class="facilities-img"><h5>We have a designated quiet working area, equipped with plug sockets and usb charging ports, whether you're a remote worker, a student, or simply want to enjoy a good book over a glass of juice.</h5></div>
+    <div class="col-md-4 p-4 facilities"><img src="assets/images/events.jpg" alt="A picture of a family celebrating a little girl's birthday" class="facilities-img"><h5>Got an occasion coming up? ZestHouse can be rented out for private events, during which you are welcome to bring your own food, such as a birthday cake!. </h5></div>
   </div>
 </div>
 
@@ -54,7 +59,7 @@
 </section>
 
 <footer>
-    <div class="container m-1 p-2">
+    <div class="container p-2">
     <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f hvr-icon"></i></a>
     <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank"><i class="fab fa-twitter hvr-icon"></i></a>
     <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></a>

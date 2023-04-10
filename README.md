@@ -69,7 +69,7 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 
 ### Colour Scheme
-![The colour palette](assets/images/readme/palette.png)
+![The colour palette](docs/features//palette.png)
 
 
 Two of the colours (#c92324 and #ea861a) used were chosen using a color picker from the background image(see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colors used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter color (#f2d363) was choosen for the background, bringing the contrast ratio score to 7.96:1.
@@ -82,18 +82,18 @@ Two of the colours (#c92324 and #ea861a) used were chosen using a color picker f
 The fonts used for the website are imported from [Google Fonts](https://fonts.google.com/).
 The font chosen for the logo as well as all the headings is Viga. It is described as having a good performance on the screen as well as a great personality.
 
-![A font sample](assets/images/readme/fontviga.png)
+![A font sample](docs/features/fontviga.png)
 
 A [font pairing website](http://www.ourownthing.co.uk/fontpairing/) was then used to pick Anek Bangla, the font used for all the other text, such as paragraphs and buttons.
 
-![A font sample](assets/images/readme/fontanek.png)
+![A font sample](docs/features/fontanek.png)
 
 
 ### Imagery
 
 The main image, used for the background, is from [unsplash.com](https://unsplash.com/photos/drzu0uPgmoU). It is a royalty free image, and is credited to an user Engin Akyurt.
 
-![halved oranges and pomagranates](assets/images/readme/citrussmall.jpg)
+![halved oranges and pomagranates](docs/features/citrussmall.jpg)
 
 The image was chosen due to its vibrant colours and the fruit looking like its bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
 
@@ -110,16 +110,16 @@ Images used for the facilities section in the About Us Page:
 Wireframes were created for mobile and desktop using Balsamiq software.
 
 #### Index Page
-![Wireframe](assets/images/readme/wireframes/mp1mobilehero.png)
-![Wireframe](assets/images/readme/wireframes/mp1deskophero.png)
+![Wireframe](docs/wireframes/mp1mobilehero.png)
+![Wireframe](docs/wireframes/mp1deskophero.png)
 
 #### About Us Page
-![Wireframe](assets/images/readme/wireframes/mp1mobilecarusel.png)
-![Wireframe](assets/images/readme/wireframes/mp1deskopcarusel.png)
+![Wireframe](docs/wireframes/mp1mobilecarusel.png)
+![Wireframe](docs/wireframes/mp1deskopcarusel.png)
 
 #### Contact Us Page
-![Wireframe](assets/images/readme/wireframes/mp1mobileform.png)
-![Wireframe](assets/images/readme/wireframes/mp1deskopform.png)
+![Wireframe](docs/wireframes/mp1mobileform.png)
+![Wireframe](docs/wireframes/mp1deskopform.png)
 
 ## Features
 

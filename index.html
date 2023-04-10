@@ -12,56 +12,64 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- FAVICON -->
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top p-0">
-    <div class="container-fluid">
-      <a class="p-1" id="logo" href="index.html"><h1>ZestHouse</h1></a>
-      <div id="menu-div justify-content-sm-center justify-content-md-center">
-         <ul class="navbar-nav d-flex flex-row" id="menu">   
-              <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="index.html" aria-current="page">Home</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="about.html" aria-current="page">About Us</a></li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-      </div>
+<!-- NAVIGATION BAR-->
+<nav class="navbar sticky-top p-0">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
+<!-- Dropdown button taken from from Bootstrap documentation code snippet, see README file for more info -->
+    <div class="dropdown">
+      <button class="btn navbar-toggler hvr-pulse" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item active" href="index.html" aria-current="true">Home</a></li>
+        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+        <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
-  </nav>
+</nav>
 
-
-<div class="p-3 text-center" id="hero">
-  <h1 class="heading-style mb-3">Welcome to the ZestHouse</h1>
-  <p>
-    <h3 class="paragraph-style mb-3">
+  <div class="p-3 text-center" id="hero">
+    <h1 class="heading-style mb-3">Welcome to the ZestHouse</h1>
+    <p><h3 class="paragraph-style mb-3">
   Our juice bar is all about bringing you the best of both worlds: deliciously sweet fruits and healthy, nutrient-packed veggies. 
  Whether you're on the go and need a quick pick-me-up or you want to hang out and relax in our cozy sit-in area, we've got you covered. 
-    </h3>
-  </p>
-  <a class="btn btn-lg m-2 hvr-pulse" href="#" role="button" style="background-color: #084208; color: #f4f7f9">Our story</a>
-          <a class="btn btn-lg m-2 hvr-pulse" href="#" role="button" style="background-color: #084208; color: #f4f7f9">Contact us</a>
+    </h3></p>
+  <a class="btn btn-lg m-2 hvr-pulse" href="about.html" role="button" style="background-color: #084208; color: #f4f7f9">Our story</a>
+  <a class="btn btn-lg m-2 hvr-pulse" href="contact.html" role="button" style="background-color: #084208; color: #f4f7f9">Contact us</a>
 </div>
 
-<!-- footer class="fixed-bottom">
-  <div class="container p-2 text-center">
-    <section class="mb-1">
-      <a class="btn m-1 hvr-icon-pulse btn-floating" style="background-color: #c92324" href="#!" role="button" target="_blank"><i class="fab fa-facebook-f hvr-icon"></i></a>
+<!-- div class="container-sm mb-2" id="times">
+<h4>Opening Times</h4>
+<table>
+  <tr>
+    <th>Mon-Sat</th>
+    <th>Sun</th>
+  </tr>
+  <tr>
+    <td>8am - 8pm</td>
+    <td>10am - 6pm</td>
+  </tr>
+</table>
+</div -->
 
-      <a class="btn btn-floating m-1 hvr-icon-pulse" style="background-color: #c92324" href="#!" role="button" target="_blank"><i class="fab fa-twitter hvr-icon"></i></a>
-
-      <a class="btn m-1 hvr-icon-pulse btn-floating" style="background-color: #c92324" href="#!" role="button" target="_blank"><i class="fab fa-instagram hvr-icon"></i></a>
-      <a class="btn btn-floating m-1 hvr-icon-pulse" style="background-color: #c92324" href="#!" role="button" target="_blank"><i class="fab fa-tiktok hvr-icon"></i></a>
-
-    </section>
+<footer>
+  <div class="container p-2">
+  <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f hvr-icon"></i></a>
+  <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank"><i class="fab fa-twitter hvr-icon"></i></a>
+  <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></a>
+  <a class="btn m-1 hvr-icon-pulse social" href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok hvr-icon"></i></a>
   </div>
-</footer -->
+</footer>
 
 </body>
 

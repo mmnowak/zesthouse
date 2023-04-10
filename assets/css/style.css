@@ -14,11 +14,8 @@ html {
   
    body 
    { 
-    background-color: #ea861a !important;
     font-family: "Viga", sans-serif;
-    background-image: url("../images/citrus.avif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
     background-size: cover;
    }
 
@@ -31,7 +28,6 @@ html {
       top: 0;
             }
           
-
     #logo {
       color: #c92324;
       font-family: "Viga", sans-serif;
@@ -39,18 +35,28 @@ html {
       text-decoration: none;        
           }
 
-     .nav-link {
+    .navbar-toggler {
       color: #f4f7f9 !important; 
-      background-color: #c92324;
+      border: 2px solid #f4f7f9 !important;
+      background-color: #c92324 !important;
       text-align: center;
       margin-right: 20px;
-      text-transform: uppercase;
-      font-family: 'Anek Bangla', sans-serif;
-      text-decoration: none;
-      letter-spacing: 1px;
-      padding: 3px 5px !important;        
+      text-decoration: none;           
     }
-               
+
+    .dropdown-menu {
+      background-color: #f2d363 !important;
+         }
+
+    .dropdown-item {
+    font-family: 'Anek Bangla', sans-serif;
+    color: #084208; 
+    text-align: center !important;    
+  }  
+    .active
+     {
+      background-color: #084208 !important;
+     }
      /*----------------------HERO*/
 
     .heading-style {
@@ -159,6 +165,13 @@ html {
       background-color: #c92324 !important;
       text-decoration: none;
               }     
+
+    /*-------------------404 */  
+    
+    #404msg {
+      background-image: url(https://images.unsplash.com/photo-1582287104445-6754664dbdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+      
+    }
 
 
 
