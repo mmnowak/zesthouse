@@ -29,24 +29,25 @@
 </head>
 
 <body>
-<!-- NAVIGATION BAR-->
-<nav class="navbar sticky-top p-0">
+<!-- NAVIGATION BAR code snippet adapted from Bootstrap documentation-->
+<nav class="navbar navbar-expand-sm sticky-top p-0">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
-<!-- Dropdown button taken from from Bootstrap documentation code snippet, see README file for more info -->
-    <div class="dropdown">
-      <button class="btn navbar-toggler hvr-pulse" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fas fa-bars"></i>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end">
-        <li><a class="dropdown-item" href="index.html">Home</a></li>
-        <li><a class="dropdown-item" href="about.html">About Us</a></li>
-        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-        <li><a class="dropdown-item active" href="menu.html" aria-current="true">Menu</a></li>
-        <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
-      </ul>
+    <div class="d-flex flex-nowrap w-100">
+      <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
+       <button class="btn navbar-toggler ms-auto hvr-pulse" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-label="Toggle navigation" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
     </div>
-</nav>
+    <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item"><a class="nav-link" href="index.html" >Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html" aria-current="true">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+    </ul></div>
+  </div>
+  </nav>
 
   <div class="p-3 text-center" id="hero">
     <h1 class="heading-style mb-3">Welcome to the ZestHouse</h1>

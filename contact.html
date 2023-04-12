@@ -30,23 +30,24 @@
 
 <body>
    
-<!-- NAVIGATION BAR-->
-<nav class="navbar sticky-top p-0">
-  <div class="container-fluid">
+<!-- NAVIGATION BAR code snippet adapted from Bootstrap documentation-->
+<nav class="navbar navbar-expand-sm sticky-top p-0">
+<div class="container-fluid">
+  <div class="d-flex flex-nowrap w-100">
     <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
-<!-- Dropdown button taken from from Bootstrap documentation code snippet, see README file for more info -->
-    <div class="dropdown">
-      <button class="btn navbar-toggler hvr-pulse" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fas fa-bars"></i>
+     <button class="btn navbar-toggler ms-auto hvr-pulse" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars"></i>
       </button>
-      <ul class="dropdown-menu dropdown-menu-end">
-        <li><a class="dropdown-item" href="index.html" >Home</a></li>
-        <li><a class="dropdown-item" href="about.html">About Us</a></li>
-        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-        <li><a class="dropdown-item" href="menu.html">Menu</a></li>
-        <li><a class="dropdown-item active" href="contact.html" aria-current="true">Contact Us</a></li>
-      </ul>
-    </div>
+  </div>
+  <div class="collapse navbar-collapse" id="navigation">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item"><a class="nav-link" href="index.html" >Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="true">Contact Us</a></li>
+  </ul></div>
+</div>
 </nav>
 
 
