@@ -40,38 +40,189 @@
     </div>
     <div class="collapse navbar-collapse" id="navigation">
         <ul class="navbar-nav justify-content-end">
-          <li class="nav-item"><a class="nav-link" href="index.html" >Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="index.html" >Home</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="gallery.html">Gallery</a></li>
           <li class="nav-item"><a class="nav-link active" href="menu.html" aria-current="true">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="contact.html">Contact Us</a></li>
     </ul></div>
   </div>
   </nav>
 
-  <div class="p-3 text-center" id="hero">
-    <h1 class="heading-style mb-3">Welcome to the ZestHouse</h1>
-    <p><h3 class="paragraph-style mb-3">
-  Our juice bar is all about bringing you the best of both worlds: deliciously sweet fruits and healthy, nutrient-packed veggies. 
- Whether you're on the go and need a quick pick-me-up or you want to hang out and relax in our cozy sit-in area, we've got you covered. 
-    </h3></p>
-  <a class="btn btn-lg m-2 hvr-pulse" href="about.html" role="button" style="background-color: #084208; color: #f4f7f9">Our story</a>
-  <a class="btn btn-lg m-2 hvr-pulse" href="contact.html" role="button" style="background-color: #084208; color: #f4f7f9">Contact us</a>
-</div>
+  <!-- CAROUSEL CODE SNIPPED FROM BOOTSTRAP DOCUMENTATION
+  THIS IS A MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS-->
+<div class="container m-5 p-3 carous-large">
+  <div class="menu-carous">
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="d-flex justify-content-center">
+      <button class="control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button></div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/carousel3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button -->
+    </div>
+  </div>
+  </div>
+  
+     <!-- CAROUSEL CODE 4 SMALL SCREEMN SNIPPED FROM BOOTSTRAP DOCUMENTATION -->
+  <div class="container m-5 p-3 carous-small">
+      <div id="carouselsmallIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselsmallIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselsmallIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselsmallIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="carousel-prev" type="button" data-bs-target="#carouselsmallIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="control-next" type="button" data-bs-target="#carouselsmallIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button></div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/carousel1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/carousel2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <img src="assets/images/carousel3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
 
-<!-- div class="container-sm mb-2" id="times">
-<h4>Opening Times</h4>
-<table>
-  <tr>
-    <th>Mon-Sat</th>
-    <th>Sun</th>
-  </tr>
-  <tr>
-    <td>8am - 8pm</td>
-    <td>10am - 6pm</td>
-  </tr>
-</table>
-</div -->
+  
+
+
 
 <!-- FOOTER -->
 <footer>
@@ -84,11 +235,11 @@
   <h6>zesthouse@juicymail.com</h6>
 </div>
 <!-- SOCIAL MEDIA -->       
-<div class="col-md-4 align-self-center"> 
- <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank"><i class="fab fa-twitter hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok hvr-icon"></i></a>
+<div class="col-md-4 align-self-center">
+  <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Our Facebook Page (opens in a new tab)"><i class="fab fa-facebook-f hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank" rel="noopener" aria-label="Our Twitter Page (opens in a new tab)"><i class="fab fa-twitter hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Our Instagram Page (opens in a new tab)"><i class="fab fa-instagram hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://tiktok.com" target="_blank" rel="noopener" aria-label="Our Tiktok Page (opens in a new tab)"><i class="fab fa-tiktok hvr-icon"></i></a>
 </div>
 <!-- OPENING TIMES -->   
  <div class="col-md-4" id="table"><h5>Opening Times</h5>

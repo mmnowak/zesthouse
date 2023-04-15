@@ -99,11 +99,20 @@ The image was chosen due to its vibrant colours and the fruit looking like its b
 
 Images used for the facilities section in the About Us Page:
 
-[Photo by Alexas Fotos from Pexels](https://www.pexels.com/photo/close-up-photo-of-stacked-tissue-rolls-10760874/)
+[Photo by Alexas Fotos on Pexels](https://www.pexels.com/photo/close-up-photo-of-stacked-tissue-rolls-10760874/)
 
-[Photo by OVAN from Pexels](https://www.pexels.com/photo/person-sitting-facing-laptop-computer-with-sketch-pad-57690/)
+[Photo by OVAN on Pexels](https://www.pexels.com/photo/person-sitting-facing-laptop-computer-with-sketch-pad-57690/)
 
-[Photo by Ivan Samkov from Pexels](https://www.pexels.com/photo/people-celebrating-a-little-girl-s-birthday-7922014/)
+[Photo by Ivan Samkov on Pexels](https://www.pexels.com/photo/people-celebrating-a-little-girl-s-birthday-7922014/)
+
+Images used for carousel
+
+[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/H7Lti8qa0dE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+https://unsplash.com/photos/byzvm4J8Ljw
+
+[Photo by Helena Yankovska on Unsplash](https://unsplash.com/photos/7EbGkOm8pWM)
+
+
 
 ### Wireframes
 

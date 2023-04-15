@@ -49,17 +49,17 @@ html {
     font-family: 'Anek Bangla', sans-serif;
     color: #f4f7f9 !important;
     text-transform: uppercase;
-    font-weight: 500;    
+    font-weight: 600 !important;    
     text-align: center;
     white-space: nowrap;
   }  
  
  .navbar-nav li {
-  margin: 0 2% 0 5%
+  margin: 0 2%;
    }  
  .active
      {
-      background-color: #c92324 !important;
+      background-color: #c92324;
      }
     
      /*----------------------HERO*/
@@ -82,6 +82,12 @@ html {
       margin: 5% 10% 2% 10%;  
       text-align: center;
             }
+
+    .hero-btn {
+      background-color: #084208 !important;
+      color: #f4f7f9 !important;
+      font-family: "Viga", sans-serif !important;
+    }        
     
     /*----------------------ABOUT*/
 
@@ -126,6 +132,17 @@ html {
       padding: 5px;
      }
 
+     /*----------------------CAROUSEL*/
+
+     .carousel-indicators{
+      position:absolute !important;
+      right:0;
+      top: 480px !important;
+      left:0px; 
+     }
+
+
+
       /*----------------------FOOTER*/
      footer {
       width: 100%;
@@ -133,8 +150,7 @@ html {
       background-color: #084208;
       color: #f4f7f9;
       bottom: 0 !important;
-      position: fixed-bottom;
-            }
+             }
       
       footer div {
         text-align: center;
@@ -158,16 +174,12 @@ html {
     border: 2px solid;
               } 
                     
-   #times h4 {
+   footer h5 {
                 font-family: 'Viga', sans-serif;
                     }
-              
-    #times {
-       background-color: #c92324;
-       color: #f4f7f9;
-       font-family: 'Anek Bangla', sans-serif;
-      width: 200px;
-      text-align: center; }
+    footer h6 {
+      font-family: 'Anek Bangla', sans-serif;
+    }                
     /*-------------------404 */  
     
     #errormsg {
@@ -175,26 +187,48 @@ html {
       
     }
 
-
-
-     /*-------------------MEDIA QUERIES  */  
+         /*-------------------MEDIA QUERIES  */  
      
-     @media screen and (max-width: 992px)
-     { 
+     @media screen and (max-width: 600px)
 
-      html {
-        height: 100%;
-        width: 100%;
-        overflow-y: scroll;
-        left: 0;
-        right: 0;
+     /* MENU CAROUSEL FOR SMALL SCREENS */
+     {        
+      .carous-large {
+      display: none; }
+         
+         .carousel-indicators{
+          position:absolute !important;
+          right:0;
+          top: 380px !important;
+          left:0px; 
+         }
+        }
+
+       
+
+      /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
+      @media screen and (min-width: 601px)
+     {        
+      .carous-small {
+      display: none; }
+      .carousel-indicators{
+        position:absolute !important;
+        right:0;
+        top: 480px !important;
+        left:0; 
+       }
+       .carous-large-buttons
+       {
+
+       }
+
       }
 
-      body {
-        position: absolute;
-             }
-    
-            }
+
+     
+
+
+            
 
          
 
