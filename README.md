@@ -113,6 +113,20 @@ https://unsplash.com/photos/byzvm4J8Ljw
 [Photo by Helena Yankovska on Unsplash](https://unsplash.com/photos/7EbGkOm8pWM)
 
 
+Menu Images
+
+Photo by Pranjall Kumar: https://www.pexels.com/photo/red-juice-in-glasses-8600079/
+Photo by Studio Naae: https://www.pexels.com/photo/close-up-shot-of-a-glass-of-fruit-juice-13546345/
+Photo by <a href="https://unsplash.com/@cravethebenefits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brenda Godinez</a> on <a href="https://unsplash.com/s/photos/smoothie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/it/@vickyng?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vicky Ng</a> on <a href="https://unsplash.com/s/photos/smoothie-bowl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/s/photos/juice-shots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by Mwabonje: https://www.pexels.com/photo/close-up-photo-of-latte-art-1714950/
+  Photo by The Castlebar: https://www.pexels.com/photo/close-up-shot-of-glasses-of-cocktails-9201052/
+  Photo by Roberto Shumski: https://www.pexels.com/photo/snack-foods-on-round-wooden-tray-9134584/
+  Photo by <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/photos/ptvKywiTghw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+  
+
 
 ### Wireframes
 
@@ -208,6 +222,8 @@ Testing requirements aren't massive for your first project, however if you start
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
+
+Menu Carousel inspired by this tutorial https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 

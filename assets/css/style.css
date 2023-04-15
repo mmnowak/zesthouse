@@ -187,6 +187,41 @@ html {
       
     }
 
+    /*-------------------MENU PAGE  */ 
+
+    #menu-carous {
+      background-color: #f2d363;
+      text-align: center;
+      margin-bottom: 5rem;
+      color: #084208;
+    }
+
+    #menu-carous h1 {
+      font-family: 'Viga', sans-serif;
+    }
+
+    #menu-carous button {
+      background-color: #084208;
+      color: #f4f7f9;
+    }
+
+    .carous-large, .carous-small {
+      font-family: 'Anek Bangla', sans-serif;
+    }
+    
+    .carous-large .btn {
+      background-color: #084208;
+      color: #f4f7f9;
+    }
+    
+    .carous-small .btn {
+      background-color: #084208;
+      color: #f4f7f9;
+    }
+
+
+
+    
          /*-------------------MEDIA QUERIES  */  
      
      @media screen and (max-width: 600px)
