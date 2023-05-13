@@ -219,51 +219,65 @@ html {
       color: #f4f7f9;
     }
 
+    .menu-prices {
+      background-color: #f2d363;
+      color: #084208;
+      font-family: 'Anek Bangla', sans-serif;
+      text-transform: capitalize;
+    }
 
+    .menu-prices h3 {
+      font-family: 'Viga', sans-serif;
+      text-align: center;
+      text-transform: capitalize;
+    }
 
-    
-         /*-------------------MEDIA QUERIES  */  
+    #bck-to-top {
+      color: #f4f7f9;
+      background-color: #c92324; 
+      border: 2px solid #f4f7f9;  
+      display: inline-block;
+      float: right;
+       }
+
+  /*--------------------GALLERY PAGE */
+    #photogallery {
+      clear: both;
+      line-height: 0;
+      column-count: 3;
+      column-gap: 0px;
+      background-color: #ea861a;
+         }
      
-     @media screen and (max-width: 600px)
-
+    #photogallery img {
+      width: 100%;
+    }
+    
+  /*-------------------MEDIA QUERIES  */  
+     
+     @media screen and (max-width: 700px)     
      /* MENU CAROUSEL FOR SMALL SCREENS */
      {        
       .carous-large {
-      display: none; }
+       display: none; }
          
-         .carousel-indicators{
-          position:absolute !important;
-          right:0;
-          top: 380px !important;
-          left:0px; 
+      .carousel-indicators{
+       position:absolute !important;
+       right:0;
+       top: 380px !important;
+       left:0px; 
          }
+
+       /* Gallery section */
+     #photogallery{
+      column-count: 1;
+     }
         }
 
-       
-
+     
       /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
-      @media screen and (min-width: 601px)
+      @media screen and (min-width: 701px)
      {        
       .carous-small {
       display: none; }
-      .carousel-indicators{
-        position:absolute !important;
-        right:0;
-        top: 480px !important;
-        left:0; 
-       }
-       .carous-large-buttons
-       {
-
-       }
-
-      }
-
-
-     
-
-
-            
-
-         
-
+     }
