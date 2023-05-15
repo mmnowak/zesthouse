@@ -1,8 +1,8 @@
-# PROJECT NAME TO GO HERE
+# ZestHouse Juice Bar
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+(Developer: Martyna Nowak)
 
-Add a Blurb about the site here, what does it do, why did you build it?
+The ZestHouse Juice Bar website is designed to be accessible and responsive on all devices. It allows easy access to a menu with prices, opening times, gallery, and information about the venue.
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
@@ -126,6 +126,20 @@ Photo by <a href="https://unsplash.com/@cravethebenefits?utm_source=unsplash&utm
   Photo by <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/photos/ptvKywiTghw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
   
+GALLERY IMAGES
+https://unsplash.com/photos/t7wg7BJU2-s
+Photo by Brooke Lark on Unsplash
+
+https://unsplash.com/photos/CiDpRQ9oPso
+Photo by Farhad Ibrahimzade on Unsplash
+https://unsplash.com/photos/TgQkxQc-t_U
+Photo by Whitney Wright on Unsplash
+https://unsplash.com/photos/BT2hIfR5oj8
+Photo by Louis Hansel on Unsplash
+https://unsplash.com/photos/22fsBrruHPQ
+Photo by Marc Babin on Unsplash
+https://unsplash.com/photos/S3E8Y_SRPUw
+Photo by Louis Hansel on Unsplash
 
 
 ### Wireframes
@@ -152,7 +166,30 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-NAVBAR FROM https://getbootstrap.com/docs/5.3/components/dropdowns/
+##### Logo and Navigation bar
+* Featured on all pages, the navigation bar is fully responsive and changes to a burger toggler menu on smaller screens.
+* The left of the navigation bar features a logo, which when clicked on leads to the index page. The right side contains links to the Home Page, About Us Page, Gallery, Menu Page and Contact Us Page.
+* The link to the page the user is currently on is indicated by a different colour background.
+* The Navigation bar was adapted from the code sourced from https://getbootstrap.com/docs/5.3/components/dropdowns/
+
+##### Footer
+* Featured on all pages.
+* Contains three sections: contact details, social media links and opening times.
+* Social media links are represented by easily identified icons.
+
+##### Index Page
+* Features a short text introducing the venue.
+* Includes two call-to-action buttons, leading to the Menu page and About Us Page.
+
+##### About Us Page
+* Includes a paragraph introducing the owners and the idea behind the business.
+* Features description of facilities avaliable, accompanied by relevant pictures.
+* Includes the venue location on an embeded Google Map.
+
+##### Gallery Page
+* A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
+
+##### Menu Page
 
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
