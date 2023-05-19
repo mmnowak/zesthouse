@@ -4,11 +4,10 @@
 
 The ZestHouse Juice Bar website is designed to be accessible and responsive on all devices. It allows easy access to a menu with prices, opening times, gallery, and information about the venue.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![an image of the webpage opened on different devices from amiresponsive](docs/features/amiresponsive.jpg)
 
 Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -146,17 +145,21 @@ Photo by Louis Hansel on Unsplash
 
 Wireframes were created for mobile and desktop using Balsamiq software.
 
-#### Index Page
-![Wireframe](docs/wireframes/mp1mobilehero.png)
-![Wireframe](docs/wireframes/mp1deskophero.png)
+<details><summary>Index Page</summary>
+<img src="docs/wireframes/mp1mobilehero.png">
+<img src="docs/wireframes/mp1deskophero.png">
+</details>
 
-#### About Us Page
-![Wireframe](docs/wireframes/mp1mobilecarusel.png)
-![Wireframe](docs/wireframes/mp1deskopcarusel.png)
+<details><summary>About Us Page</summary>
+<img src="docs/wireframes/mp1mobilecarusel.png">
+<img src="docs/wireframes/mp1deskopcarusel.png">
+</details>
 
-#### Contact Us Page
-![Wireframe](docs/wireframes/mp1mobileform.png)
-![Wireframe](docs/wireframes/mp1deskopform.png)
+<details><summary>Contact Us Page</summary>
+<img src="docs/wireframes/mp1mobileform.png">
+<img src="docs/wireframes/mp1deskopform.png">
+</details>
+
 
 ## Features
 
@@ -166,30 +169,35 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-##### Logo and Navigation bar
+#### Logo and Navigation bar
 * Featured on all pages, the navigation bar is fully responsive and changes to a burger toggler menu on smaller screens.
 * The left of the navigation bar features a logo, which when clicked on leads to the index page. The right side contains links to the Home Page, About Us Page, Gallery, Menu Page and Contact Us Page.
 * The link to the page the user is currently on is indicated by a different colour background.
 * The Navigation bar was adapted from the code sourced from https://getbootstrap.com/docs/5.3/components/dropdowns/
 
-##### Footer
+#### Footer
 * Featured on all pages.
 * Contains three sections: contact details, social media links and opening times.
 * Social media links are represented by easily identified icons.
 
-##### Index Page
+#### Index Page
 * Features a short text introducing the venue.
 * Includes two call-to-action buttons, leading to the Menu page and About Us Page.
 
-##### About Us Page
+#### About Us Page
 * Includes a paragraph introducing the owners and the idea behind the business.
 * Features description of facilities avaliable, accompanied by relevant pictures.
 * Includes the venue location on an embeded Google Map.
 
-##### Gallery Page
+#### Gallery Page
 * A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
 
-##### Menu Page
+#### Menu Page
+* Carousel
+
+![Menu carousel on deskop](docs/features/menupagecarousel.jpg)
+![Menu carousel on mobile](docs/features/menupagecarouselmobile.png)
+
 
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
@@ -251,6 +259,27 @@ Place instructions on how to fork your project here.
 Place instructions on how to clone your project here.
 
 ## Testing
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. No errors were found.
+[Index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Findex.html)
+[About.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fabout.html)
+[Gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fgallery.html)
+[Menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fmenu.html)
+[Contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fcontact.html)
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the css file for the website. No errors were found.
+![CSS Validation score](docs/features/cssvalidation.png)
+
+### Accessibility
+The WAVE web accessibility evaluation tool by WebAIM was used to ensure the website is fully accessible.
+[Index.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/)
+[About.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/about.html)
+[Gallery.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/gallery.html)
+[Menu.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/menu.html)
+[Contact.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/contact.html)
+
 
 Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
 

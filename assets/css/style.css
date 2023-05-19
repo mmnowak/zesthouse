@@ -9,6 +9,7 @@ html {
     font-family: "Viga", sans-serif;
     background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
     background-size: cover;
+    position: relative;
    }
 
    /*----------------------NAVIGATION BAR */
@@ -21,10 +22,18 @@ html {
             }
           
     #logo {
-      color: #c92324;
+      color: #f4f7f9;
       font-family: "Viga", sans-serif;
       text-align: left;
-      text-decoration: none;        
+      text-decoration: none;
+      text-shadow: 3px 3px 0 #c92324,
+      2px -2px 0 #c92324,
+      -2px 2px 0 #c92324,
+      -2px -2px 0 #c92324,
+      2px 0px 0 #c92324,
+      0px 2px 0 #c92324,
+      -2px 0px 0 #c92324,
+      0px -2px 0 #c92324;             
           }
 
     .navbar-toggler {
@@ -64,10 +73,11 @@ html {
           }
 
     .paragraph-style {
+      font-size: 1.5rem;
       font-family: 'Anek Bangla', sans-serif;
       color: #084208;
-      font-weight: 500;
-          }
+      font-weight: 500;      
+              }
 
     #hero {
       background-color: rgba(242, 211, 99, 0.9);
@@ -113,6 +123,11 @@ html {
       font-family: 'Anek Bangla', sans-serif;
       color: #084208;
     }
+
+    #map {
+      height: 250px;
+       width: 70%
+      }
 
      /*----------------------CONTACT US PAGE*/
 
@@ -209,6 +224,10 @@ html {
       float: right;
        }
 
+    .menu-img {
+      width: 100%;
+    }
+
   /*--------------------GALLERY PAGE */
     #photogallery {
       clear: both;
@@ -225,11 +244,10 @@ html {
      /*----------------------FOOTER*/
      footer {
       width: 100%;
-      bottom: 0;
       background-color: #084208;
       color: #f4f7f9;
       bottom: 0 !important;
-             }
+              }
       
       footer div {
         text-align: center;
@@ -273,15 +291,22 @@ html {
        top: 380px !important;
        left:0px; 
          }
+         
        /* GALLERY PAGE */
      #photogallery{
       column-count: 1;
      }
     }
+
      
       /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
       @media screen and (min-width: 768px)
      {        
       .carous-small {
       display: none; }
+    
+       /* ALIGNING FOOTER AT THE BOTTOM FOR MEDIUM AND LARGE SCREENS */
+     #ftr {
+      position: fixed !important;
+     }
      }
