@@ -8,47 +8,42 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 
 Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
 
-
 ---
 
-## CONTENTS
+## Table of Content
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-
-* [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
-
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
-
----
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Colour scheme](#colour-scheme)
+    2. [Typography](#typography)
+    3. [Imagery](#imagery)
+    4. [Wireframes](#wireframes)
+4. [Features](#features)
+5. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+6. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+7. [Credits](#credits)
+    1. [Media](#media)
+    2. [Code used](#code-used)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+11. [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
-
 
 ### User Stories
 
@@ -58,7 +53,6 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 * I want to find out where ZestHouse is
 * I want to be able to navigate the website with ease
 
-
 **Returning Visitor Goals**
 
 * I want to be able to contact ZestHouse easily with any questions or feedback i might have
@@ -66,17 +60,13 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 
 ## Design
 
-
 ### Colour Scheme
 ![The colour palette](docs/features//palette.png)
-
 
 Two of the colours (#c92324 and #ea861a) used were chosen using a color picker from the background image(see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colors used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter color (#f2d363) was choosen for the background, bringing the contrast ratio score to 7.96:1.
 
 
-
 ### Typography
-
 
 The fonts used for the website are imported from [Google Fonts](https://fonts.google.com/).
 The font chosen for the logo as well as all the headings is Viga. It is described as having a good performance on the screen as well as a great personality.
@@ -87,59 +77,10 @@ A [font pairing website](http://www.ourownthing.co.uk/fontpairing/) was then use
 
 ![A font sample](docs/features/fontanek.png)
 
-
 ### Imagery
 
-The main image, used for the background, is from [unsplash.com](https://unsplash.com/photos/drzu0uPgmoU). It is a royalty free image, and is credited to an user Engin Akyurt.
-
+The image main image, used for the background, was chosen due to its vibrant colours and the fruit looking like its bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
 ![halved oranges and pomagranates](docs/features/citrussmall.jpg)
-
-The image was chosen due to its vibrant colours and the fruit looking like its bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
-
-Images used for the facilities section in the About Us Page:
-
-[Photo by Alexas Fotos on Pexels](https://www.pexels.com/photo/close-up-photo-of-stacked-tissue-rolls-10760874/)
-
-[Photo by OVAN on Pexels](https://www.pexels.com/photo/person-sitting-facing-laptop-computer-with-sketch-pad-57690/)
-
-[Photo by Ivan Samkov on Pexels](https://www.pexels.com/photo/people-celebrating-a-little-girl-s-birthday-7922014/)
-
-Images used for carousel
-
-[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/H7Lti8qa0dE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-https://unsplash.com/photos/byzvm4J8Ljw
-
-[Photo by Helena Yankovska on Unsplash](https://unsplash.com/photos/7EbGkOm8pWM)
-
-
-Menu Images
-
-Photo by Pranjall Kumar: https://www.pexels.com/photo/red-juice-in-glasses-8600079/
-Photo by Studio Naae: https://www.pexels.com/photo/close-up-shot-of-a-glass-of-fruit-juice-13546345/
-Photo by <a href="https://unsplash.com/@cravethebenefits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brenda Godinez</a> on <a href="https://unsplash.com/s/photos/smoothie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/it/@vickyng?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vicky Ng</a> on <a href="https://unsplash.com/s/photos/smoothie-bowl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/s/photos/juice-shots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by Mwabonje: https://www.pexels.com/photo/close-up-photo-of-latte-art-1714950/
-  Photo by The Castlebar: https://www.pexels.com/photo/close-up-shot-of-glasses-of-cocktails-9201052/
-  Photo by Roberto Shumski: https://www.pexels.com/photo/snack-foods-on-round-wooden-tray-9134584/
-  Photo by <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/photos/ptvKywiTghw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
-GALLERY IMAGES
-https://unsplash.com/photos/t7wg7BJU2-s
-Photo by Brooke Lark on Unsplash
-
-https://unsplash.com/photos/CiDpRQ9oPso
-Photo by Farhad Ibrahimzade on Unsplash
-https://unsplash.com/photos/TgQkxQc-t_U
-Photo by Whitney Wright on Unsplash
-https://unsplash.com/photos/BT2hIfR5oj8
-Photo by Louis Hansel on Unsplash
-https://unsplash.com/photos/22fsBrruHPQ
-Photo by Marc Babin on Unsplash
-https://unsplash.com/photos/S3E8Y_SRPUw
-Photo by Louis Hansel on Unsplash
-
 
 ### Wireframes
 
@@ -160,44 +101,36 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 <img src="docs/wireframes/mp1deskopform.png">
 </details>
 
-
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
-
-### General features on each page
-
-#### Logo and Navigation bar
+### Logo and Navigation bar
 * Featured on all pages, the navigation bar is fully responsive and changes to a burger toggler menu on smaller screens.
 * The left of the navigation bar features a logo, which when clicked on leads to the index page. The right side contains links to the Home Page, About Us Page, Gallery, Menu Page and Contact Us Page.
 * The link to the page the user is currently on is indicated by a different colour background.
 * The Navigation bar was adapted from the code sourced from https://getbootstrap.com/docs/5.3/components/dropdowns/
 
-#### Footer
+### Footer
 * Featured on all pages.
 * Contains three sections: contact details, social media links and opening times.
 * Social media links are represented by easily identified icons.
 
-#### Index Page
+### Index Page
 * Features a short text introducing the venue.
 * Includes two call-to-action buttons, leading to the Menu page and About Us Page.
 
-#### About Us Page
+### About Us Page
 * Includes a paragraph introducing the owners and the idea behind the business.
 * Features description of facilities avaliable, accompanied by relevant pictures.
 * Includes the venue location on an embeded Google Map.
 
-#### Gallery Page
+### Gallery Page
 * A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
 
-#### Menu Page
+### Menu Page
 * Carousel
 
 ![Menu carousel on deskop](docs/features/menupagecarousel.jpg)
 ![Menu carousel on mobile](docs/features/menupagecarouselmobile.png)
-
 
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
@@ -221,22 +154,22 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
+### Languages
 
-### Languages Used
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+### Frameworks and Tools
 
-### Frameworks, Libraries & Programs Used
-
-* Bootstrap
-* Balsamiq
-* Google Fonts
-* Colormind.io
-* Webaim.org Contrast Checker
-* Hover.css by Ian Lunn
-* FontAwesome
-
+* [Bootstrap](https://getbootstrap.com/)
+* [Balsamiq](https://balsamiq.com/wireframes/)
+* [GitHub](https://github.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Google Fonts](https://fonts.google.com/)
+* [Colormind.io](http://colormind.io/)
+* [Webaim.org Contrast Checker](https://webaim.org/)
+* [Hover.css by Ian Lunn](https://ianlunn.github.io/Hover/)
+* [FontAwesome](https://fontawesome.com/)
 
 ## Deployment & Local Development
 
@@ -262,10 +195,17 @@ Place instructions on how to clone your project here.
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. No errors were found.
+
+See scores:
+
 [Index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Findex.html)
+
 [About.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fabout.html)
+
 [Gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fgallery.html)
+
 [Menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fmenu.html)
+
 [Contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fcontact.html)
 
 ### CSS Validation
@@ -274,39 +214,97 @@ The W3C Jigsaw CSS Validation Service was used to validate the css file for the 
 
 ### Accessibility
 The WAVE web accessibility evaluation tool by WebAIM was used to ensure the website is fully accessible.
+
+See scores:
+
 [Index.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/)
+
 [About.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/about.html)
+
 [Gallery.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/gallery.html)
+
 [Menu.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/menu.html)
+
 [Contact.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/contact.html)
 
+### Performance tests on various devices
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+The website was used on following devices:
+* Thinkpad Yoga 460
+* Xiaomi 11 Lite
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+As well as on all avaliable device options when using Google Chrome Developer tools.
+
+### Browser compatibility
+
+The website was tested on following browsers:
+
+* Google Chrome
+* Opera
+* Microsoft Edge
 
 ## Credits
 
-Menu Carousel inspired by this tutorial https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
+### Media
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+The main image, used for the background, is by [Engin Akyurt on Unsplash](https://unsplash.com/photos/drzu0uPgmoU)
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+#### About Us Page
+[Photo by Alexas Fotos on Pexels](https://www.pexels.com/photo/close-up-photo-of-stacked-tissue-rolls-10760874/)
+
+[Photo by OVAN on Pexels](https://www.pexels.com/photo/person-sitting-facing-laptop-computer-with-sketch-pad-57690/)
+
+[Photo by Ivan Samkov on Pexels](https://www.pexels.com/photo/people-celebrating-a-little-girl-s-birthday-7922014/)
+
+#### Menu Page
+[Photo by Pranjall Kumar on Pexels](https://www.pexels.com/photo/red-juice-in-glasses-8600079/)
+
+[Photo by Studio Naae on Pexels](https://www.pexels.com/photo/close-up-shot-of-a-glass-of-fruit-juice-13546345/)
+
+[Photo by Brenda Godinez on Unsplash](https://unsplash.com/s/photos/smoothie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Photo by Vicky Ng on Unsplash](https://unsplash.com/s/photos/smoothie-bowl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Photo by Toa Heftiba on Unsplash](https://unsplash.com/s/photos/juice-shots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Photo by Mwabonje on Pexels](https://www.pexels.com/photo/close-up-photo-of-latte-art-1714950/)
+
+[Photo by The Castlebar on Pexels](https://www.pexels.com/photo/close-up-shot-of-glasses-of-cocktails-9201052/)
+
+[Photo by Roberto Shumski on Pexels](https://www.pexels.com/photo/snack-foods-on-round-wooden-tray-9134584/)
+
+[Photo by Melissa Walker Horn on Unsplash](https://unsplash.com/photos/ptvKywiTghw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+#### Gallery Page
+[Photo by Brooke Lark on Unsplash](https://unsplash.com/photos/t7wg7BJU2-s)
+
+[Photo by Farhad Ibrahimzade on Unsplash](https://unsplash.com/photos/CiDpRQ9oPso)
+
+[Photo by Whitney Wright on Unsplash](https://unsplash.com/photos/TgQkxQc-t_U)
+
+[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/BT2hIfR5oj8)
+
+[Photo by Marc Babin on Unsplash](https://unsplash.com/photos/22fsBrruHPQ)
+
+[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/S3E8Y_SRPUw)
+
+[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/H7Lti8qa0dE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+[Photo by Louis Hansel on Unsplash](https://unsplash.com/photos/byzvm4J8Ljw)
+
+[Photo by Helena Yankovska on Unsplash](https://unsplash.com/photos/7EbGkOm8pWM)
 
 ### Code Used
+* The HTML for the [navigation bar](https://getbootstrap.com/docs/5.3/components/navbar/) was taken from Bootstrap v5.3 documentation snippets.
+* The carousel containing cards used on the menu.html page was inspired by a tutorial by [Coding Yaar](https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/)
+* The HTML for the [two carousels](https://getbootstrap.com/docs/5.3/components/carousel/) on the menu.html page, as well as the [cards](https://getbootstrap.com/docs/5.3/components/card/) used within these carousels, was taken from Bootstrap v5.3 documentation snippets.
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
 ### Content
 
 Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
-
-###  Media
-
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
   
-###  Acknowledgments
+##  Acknowledgments
 
 If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+
