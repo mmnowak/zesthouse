@@ -29,11 +29,11 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
 6. [Testing](#testing)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+    3. [Accessibility](#accessibility-testing)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
+    5. [Device testing](#performance-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatibility)
     7. [Testing user stories](#testing-user-stories)
 7. [Credits](#credits)
@@ -107,50 +107,59 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 * Featured on all pages, the navigation bar is fully responsive and changes to a burger toggler menu on smaller screens.
 * The left of the navigation bar features a logo, which when clicked on leads to the index page. The right side contains links to the Home Page, About Us Page, Gallery, Menu Page and Contact Us Page.
 * The link to the page the user is currently on is indicated by a different colour background.
-* The Navigation bar was adapted from the code sourced from https://getbootstrap.com/docs/5.3/components/dropdowns/
+![footer as seen on deskop](docs/features/navbar.png)
+![footer as seen on mobile](docs/features/navbarmobile.png)
 
 ### Footer
 * Featured on all pages.
 * Contains three sections: contact details, social media links and opening times.
 * Social media links are represented by easily identified icons.
+![footer as seen on deskop](docs/features/footer.png)
+![footer as seen on mobile](docs/features/footermobile.png)
 
 ### Index Page
 * Features a short text introducing the venue.
 * Includes two call-to-action buttons, leading to the Menu page and About Us Page.
+![two call-to-action buttons](docs/features/indexbuttons.png)
 
 ### About Us Page
 * Includes a paragraph introducing the owners and the idea behind the business.
+![about us page](docs/features/about.png)
 * Features description of facilities avaliable, accompanied by relevant pictures.
+![facilities section](docs/features/facilities.png)
 * Includes the venue location on an embeded Google Map.
+![the map on the about us page](docs/features/map.png)
 
 ### Gallery Page
 * A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
+![gallery page](docs/features/gallery.png)
 
 ### Menu Page
-* Carousel
+* The menu overview takes form of a carousel containing cards, each card representing a menu section with a corresponding title and image. It shows three cards per slide on medium and large devices and one card per slide on small devices. It contains nine sections (Cold pressed juices, tropical juices, smoothies, smoothie bowls, juice shots, slushies, hot drinks, alcoholic drinks and snacks). 
+* Allows the user to navigate via back and forward arrows, located at the top on small screens and at the sides on medium and large screens.
 
 ![Menu carousel on deskop](docs/features/menupagecarousel.jpg)
 ![Menu carousel on mobile](docs/features/menupagecarouselmobile.png)
+* Clicking the 'see prices' button for each card leads to a price menu. This allows the user to quickly locate prices of items they are interested in.
+![price menu](docs/features/menu.png)
+* A back-to-top button in the bottom right corner of the price menus leads back to the carousel with menu sections. It allows the user to navigate the menu easier and quicker. The back-to-top option is represented by a commonly identified icon.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+![back-to-top-button](docs/features/scrollup.png)
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
-
-### Future Implementations
-
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+### Contact Us Page
+* Features a contact form which allows the user to easily contact the venue with any questions or feedback.
+![the contact form](docs/features/form.png) 
+* Contains contact details such as an address, a phone number and an email address.
+![Menu carousel on deskop](docs/features/contact.png)
 
 ### Accessibility
-
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+The following steps were taken to ensure the website is accessible:
+* A contrast checker tool was used when deciding on the colour palette to ensure a sufficient colour contrast throughout the page.
+* Aria-labels were added to the icons to enable screen readers to understand them.
+* Aria-current was used to indicate the current page for screen readers.
+* All images are attributed with alternative descriptions.
+* Sans serif fonts were chosen to ensure the website is dyslexia-friendly.
+* Semantic HTML was used.
 
 ## Technologies Used
 
@@ -212,7 +221,7 @@ See scores:
 The W3C Jigsaw CSS Validation Service was used to validate the css file for the website. No errors were found.
 ![CSS Validation score](docs/features/cssvalidation.png)
 
-### Accessibility
+### Accessibility Testing
 The WAVE web accessibility evaluation tool by WebAIM was used to ensure the website is fully accessible.
 
 See scores:
@@ -299,10 +308,9 @@ The main image, used for the background, is by [Engin Akyurt on Unsplash](https:
 * The carousel containing cards used on the menu.html page was inspired by a tutorial by [Coding Yaar](https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/)
 * The HTML for the [two carousels](https://getbootstrap.com/docs/5.3/components/carousel/) on the menu.html page, as well as the [cards](https://getbootstrap.com/docs/5.3/components/card/) used within these carousels, was taken from Bootstrap v5.3 documentation snippets.
 
-
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content for the website was written by Martyna Nowak.
   
 ##  Acknowledgments
 
