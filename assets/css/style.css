@@ -7,7 +7,7 @@ html {
    body 
    { 
     font-family: "Viga", sans-serif;
-    background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
+    background: #ea861a url("../images/citrusbck.png") no-repeat fixed !important;
     background-size: cover;
     position: relative;
    }
@@ -16,8 +16,8 @@ html {
     
     .navbar {
       background-color: #084208;
-      border-bottom: 10px dotted #c92324;
       position: sticky;
+      border-bottom: 10px dotted #c92324;
       top: 0;
             }
           
@@ -156,12 +156,19 @@ html {
       font-size: 1.5rem;
       line-height: 1.5rem;
       border: 0.5rem solid #c92324;
-     }
+      display: block;
+      overflow-x: scroll;
+             }
 
      #contactinfo h1{
       text-align: center;
       font-family: 'Viga', sans-serif;
       color: #084208;
+     }
+
+     #contactinfo a {
+      text-decoration: none;
+      color: inherit;
      }
 
     /*-------------------404 */  
@@ -220,7 +227,6 @@ html {
       color: #f4f7f9;
       background-color: #c92324; 
       border: 2px solid #f4f7f9;  
-      display: inline-block;
       float: right;
        }
 
@@ -272,10 +278,19 @@ html {
               } 
                     
    footer h5 {
-                font-family: 'Viga', sans-serif;
+     font-family: 'Viga', sans-serif;
                     }
     footer h6 {
       font-family: 'Anek Bangla', sans-serif; }
+
+    footer a {
+      text-decoration: none;
+      color: inherit;
+    }  
+
+    footer a:hover {
+      color: #f2d363;
+    }
 
   /*-------------------MEDIA QUERIES  */  
      

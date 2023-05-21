@@ -6,7 +6,7 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 
 ![an image of the webpage opened on different devices from amiresponsive](docs/features/amiresponsive.jpg)
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+[Live webpage](https://mmnowak.github.io/zesthouse/)
 
 ---
 
