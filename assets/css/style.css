@@ -53,10 +53,11 @@ html {
     text-align: center;
     white-space: nowrap;
   }  
- 
+   
  .navbar-nav li {
   margin: 0 2%;
    }  
+
  .active
      {
       background-color: #c92324;
@@ -179,21 +180,21 @@ html {
       text-align: center;     
     }
 
-    /*-------------------THANK YOU PAGE */  
+    /*-------------------THANK YOU AND 404 PAGE */  
 
-    .thankyoumsg {
+    .message {
       background-color: rgba(242, 211, 99, 0.8);
       color: #084208;
       font-family: 'Viga', sans-serif;
       text-align: center;
     }
 
-    .thankyoumsg a {
+    .message a {
       background-color: #084208;
       color: #f4f7f9;
     }
 
-    .thankyoumsg a:hover {
+    .message a:hover {
       background-color: #084208;
       color: #f4f7f9;
     }
