@@ -26,13 +26,13 @@ html {
       text-align: left;
       text-decoration: none;
       text-shadow: 3px 3px 0 #c92324,
-      2px -2px 0 #c92324,
-      -2px 2px 0 #c92324,
-      -2px -2px 0 #c92324,
-      2px 0px 0 #c92324,
-      0px 2px 0 #c92324,
-      -2px 0px 0 #c92324,
-      0px -2px 0 #c92324;             
+      3px -3px 0 #c92324,
+      -3px 3px 0 #c92324,
+      -3px -3px 0 #c92324,
+      3px 0px 0 #c92324,
+      0px 3px 0 #c92324,
+      -3px 0px 0 #c92324,
+      0px -3px 0 #c92324;             
           }
 
     .navbar-toggler {
@@ -173,20 +173,13 @@ html {
 
     /*-------------------404 */  
     
-    .errormsg {
-      background-color: rgba(242, 211, 99, 0.8);
-      color: #084208;
-      font-family: 'Viga', sans-serif;
-      text-align: center;     
-    }
-
     /*-------------------THANK YOU AND 404 PAGE */  
 
     .message {
       background-color: rgba(242, 211, 99, 0.8);
       color: #084208;
-      font-family: 'Viga', sans-serif;
       text-align: center;
+      font-family: 'Viga', sans-serif;
     }
 
     .message a {
@@ -290,6 +283,7 @@ html {
       height: 2.5em !important;
       border-radius: 50% !important;
       background-color: #c92324 !important;
+      color: #f4f7f9 !important;
       text-decoration: none;
       border: 2px solid #f4f7f9 !important;
               }   
