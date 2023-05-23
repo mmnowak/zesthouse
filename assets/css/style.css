@@ -1,7 +1,6 @@
 html {
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
       }
   
    body 
@@ -157,8 +156,8 @@ html {
       line-height: 1.5rem;
       border: 0.5rem solid #c92324;
       display: block;
-      overflow-x: scroll;
-             }
+      overflow-wrap: break-word;
+                  }
 
      #contactinfo h1{
       text-align: center;
@@ -173,9 +172,30 @@ html {
 
     /*-------------------404 */  
     
-    #errormsg {
-      background-image: url(https://images.unsplash.com/photo-1582287104445-6754664dbdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-      
+    .errormsg {
+      background-color: rgba(242, 211, 99, 0.8);
+      color: #084208;
+      font-family: 'Viga', sans-serif;
+      text-align: center;     
+    }
+
+    /*-------------------THANK YOU PAGE */  
+
+    .thankyoumsg {
+      background-color: rgba(242, 211, 99, 0.8);
+      color: #084208;
+      font-family: 'Viga', sans-serif;
+      text-align: center;
+    }
+
+    .thankyoumsg a {
+      background-color: #084208;
+      color: #f4f7f9;
+    }
+
+    .thankyoumsg a:hover {
+      background-color: #084208;
+      color: #f4f7f9;
     }
 
     /*-------------------MENU PAGE  */ 
@@ -194,6 +214,10 @@ html {
     #menu-carous button {
       background-color: #084208;
       color: #f4f7f9;
+    }
+
+    .card {
+      width: 18rem;
     }
 
     .carous-large, .carous-small {
@@ -312,8 +336,7 @@ html {
       column-count: 1;
      }
     }
-
-     
+   
       /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
       @media screen and (min-width: 768px)
      {        

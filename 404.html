@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="ZestHouse is a juice bar serving a variety of freshly prepared juices, smoothies, hot drinks and snacks.">
+    <meta name="keywords"
+          content="juice bar, smoothie bar, juice, smoothie bowl, healthy snacks, health and wellness, juice shots, slushie">
+    <meta name="author" content="Martyna Nowak">  
     <title>ZestHouse</title>    
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 <!-- HOVER.CSS by IAN LUNN -->
@@ -29,49 +34,51 @@
 </head>
 
 <body>
-<!-- NAVIGATION BAR -->  
-    <nav class="navbar navbar-expand-lg sticky-top p-0">
-    <div class="container-fluid">
-      <a class="p-1" id="logo" href="index.html"><h1>ZestHouse</h1></a>
-      <div>
-         <ul class="navbar-nav d-flex flex-row justify-content-sm-center justify-content-md-center" id="menu">   
-              <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="index.html" aria-current="page">Home</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="about.html" aria-current="page">About Us</a></li>
-            <li class="navbar-item">
-              <a class="nav-link hvr-pulse" href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-      </div>
+<!-- NAVIGATION BAR code snippet adapted from Bootstrap documentation-->
+<nav class="navbar navbar-expand-sm sticky-top p-0">
+  <div class="container-fluid">
+    <div class="d-flex flex-nowrap w-100">
+      <a class="navbar-brand" href="index.html" aria-current="true" id="logo"><h2>ZestHouse</h2></a>
+       <button class="btn navbar-toggler ms-auto hvr-pulse" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-label="Toggle navigation" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
     </div>
+    <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="index.html" >Home</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link hvr-pulse" href="contact.html">Contact Us</a></li>
+    </ul></div>
+  </div>
   </nav>
 
+<div class="m-5 p-5 errormsg">
+    <h1>Sorry!</h1>
+    <h2>the page you were looking for cannot be found</h2>
+    <a class="btn btn-lg m-3 hvr-pulse" href="index.html" role="button"><i class="fa-solid fa-turn-down-left"></i>Go back</a>
+</div>
   
-<!-- 404 MESSAGE -->
-
-<div class="container" id="errormsg"><h2>ERROR</h2></div>
-
-
 <!-- FOOTER -->
-<footer>
+<footer id="ftr">
   <div class="container p-2 justify-content-around align-items-center">
     <div class="row">
 <!-- CONTACT DETAILS -->
 <div class="col-md-4">
   <h5>Contact us</h5>
-  <h6>47746583747</h6>
-  <h6>zesthouse@juicymail.com</h6>
+  <h6><a href="tel:07710219325">07710219325</a></h6>
+  <h6><a href ="mailto:zesthouse@juicemail.com">zesthouse@juicemail.com</a></h6>
 </div>
 <!-- SOCIAL MEDIA -->       
-<div class="col-md-4 align-self-center"> 
- <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank"><i class="fab fa-twitter hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></a>
-  <a class="btn m-1 hvr-icon-pulse social" href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok hvr-icon"></i></a>
+<div class="col-md-4 align-self-center">
+  <a class="btn m-1 hvr-icon-pulse social" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Our Facebook Page (opens in a new tab)"><i class="fab fa-facebook-f hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://twitter.com" target="_blank" rel="noopener" aria-label="Our Twitter Page (opens in a new tab)"><i class="fab fa-twitter hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Our Instagram Page (opens in a new tab)"><i class="fab fa-instagram hvr-icon"></i></a>
+   <a class="btn m-1 hvr-icon-pulse social" href="http://tiktok.com" target="_blank" rel="noopener" aria-label="Our Tiktok Page (opens in a new tab)"><i class="fab fa-tiktok hvr-icon"></i></a>
 </div>
 <!-- OPENING TIMES -->   
- <div class="col-md-4" id="table"><h5>Opening Times</h5>
+ <div class="col-md-4" id="times"><h5>Opening Times</h5>
 <table>
   <tr>
     <th>Mon-Sat</th>
