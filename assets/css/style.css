@@ -9,6 +9,7 @@ html {
     background: #ea861a url("../images/citrusbck.png") no-repeat fixed !important;
     background-size: cover;
     position: relative;
+    min-height: 100%;
    }
 
    /*----------------------NAVIGATION BAR */
