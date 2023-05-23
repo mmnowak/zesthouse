@@ -58,7 +58,7 @@ html {
   margin: 0 2%;
    }  
 
- .active
+ .active-link
      {
       background-color: #c92324;
      }
@@ -219,6 +219,7 @@ html {
 
     .card {
       width: 18rem;
+      margin: auto;
     }
 
     .carous-large, .carous-small {
