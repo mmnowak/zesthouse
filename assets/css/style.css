@@ -6,10 +6,13 @@ html {
    body 
    { 
     font-family: "Viga", sans-serif;
-    background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
-    background-size: cover;
     position: relative;
     min-height: 100%;
+   }
+
+   #citrus-background {
+    background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
+    background-size: cover;
    }
 
    /*----------------------NAVIGATION BAR */
