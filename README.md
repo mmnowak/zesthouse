@@ -126,6 +126,17 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 <img src="docs/wireframes/mp1deskopcarusel.png">
 </details>
 
+<details><summary>Gallery Page</summary>
+<img src="docs/wireframes/mp1gallerydeskop.png">
+<img src="docs/wireframes/mp1gallerymobile.png">
+</details>
+
+<details><summary>Menu Page</summary>
+<img src="docs/wireframes/mp1menudeskop.png">
+<img src="docs/wireframes/mp1menumobile.png">
+</details>
+
+
 <details><summary>Contact Us Page</summary>
 <img src="docs/wireframes/mp1mobileform.png">
 <img src="docs/wireframes/mp1deskopform.png">
