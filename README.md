@@ -109,6 +109,7 @@ A [font pairing website](http://www.ourownthing.co.uk/fontpairing/) was then use
 ### Imagery
 
 The image main image, used for the background, was chosen due to its vibrant colours and the fruit looking like its bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
+
 ![halved oranges and pomagranates](docs/features/citrussmall.jpg)
 
 ### Wireframes
@@ -492,6 +493,7 @@ Content for the website was written by Martyna Nowak.
 On the pages containing smaller amount of content, such as index.html and contact.html, footer was positioned halfway up the page instead of at the bottom. I tried various solutions, such as adding a sticky-bottom class or position: absolute or setting bottom margin to 0; none of them worked appropriately. While position: fixed achieved the goal of keeping the footer at the bottom on all the pages, it caused the footer to obscure content on some pages. I created id 'ftr' to apply position:fixed property only to pages with small amount of content. However, some elements were still obscured while viewing the page on mobile. My final solution was to use media query and apply position:fixed to id 'ftr' only for medium- and large-sized devices. According to manual testing carried on using Google Developer Tools, the solution worked and the footer remains at the bottom of all the pages on all devices without obscuring any content.
 * #### Horizontal Overflow
 A horizontal scrollbar kept appearing while viewing the website on mobile. As reccomended to me on slack, I used Unicorn Revealer Chrome Extension to try and find out which element causes the overflowing, but to no avail. Finally, I followed an instruction from https://www.smashingmagazine.com/ and added a JavaScript snippet to the browser console. This showed that the culprit was 'row' element within the footer. The overflow was fixed by adding 'm-0' class to the element.
+
 ![the javascript snippet used](docs/features/bug1.png)
 
 
