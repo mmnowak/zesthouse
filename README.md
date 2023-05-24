@@ -13,7 +13,10 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 ## Table of Content
 
 1. [Project Goals](#project-goals)
+    1. [Overview](#overview)
+    2. [Goals](#goals)
 2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
     1. [User Requirements and Expectations](#user-requirements-and-expectations)
     2. [User Stories](#user-stories)
 3. [Design](#design)
@@ -42,6 +45,13 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
+
+### Overview
+
+The main purpose of the project is to create an easy to use and visually appealing website for ZestHouse Juice Bar, a venue serving healthy drinks and snacks. The website is supposed to feature important information, such as prices, opening times, and avaliable facilities. It is designed to be user friendly and concise.
+
+### Goals
+
 1. A website that can be navigated easily and intuitively.
 2. Easy access to the drink and food menu and prices.
 3. A visual representation of the products.
@@ -52,6 +62,13 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 8. A website that is accessible to all users.
 
 ## User Experience
+
+### Target Audience
+* All age groups;
+* Health conscious people;
+* People wanting to buy delicious drinks, either to sit in or takeaway;
+* People looking for a venue to remote work at;
+* Groups looking for a venue that can be booked for events.
 
 ### User Requirements and Expectations
 1. Links and buttons that work as expected.
@@ -164,6 +181,7 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 * Features a short text introducing the venue.
 * Includes two call-to-action buttons, leading to the Menu page and About Us Page.
 *  User stories covered: 11, 18
+
 ![two call-to-action buttons](docs/features/indexbuttons.png)
 
 ### About Us Page
@@ -280,6 +298,22 @@ See scores:
 [Menu.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/menu.html)
 
 [Contact.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/contact.html)
+
+### Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+<details><summary>Index Page</summary>
+<img src="docs/features/lighthouseindex.png">
+</details>
+
+<details><summary>Gallery Page</summary>
+<img src="docs/features/lighthousegallery.png">
+</details>
+
+<details><summary>Contact UsPage</summary>
+<img src="docs/features/lighthousecontact.png">
+</details>
 
 ### Performance tests on various devices
 
@@ -510,19 +544,27 @@ A horizontal scrollbar kept appearing while viewing the website on mobile. As re
 
 ## Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+1. Open the Github repository at [https://github.com/mmnowak/zesthouse](https://github.com/mmnowak/zesthouse)
+2. Click on the Settings button;
+3. Select Pages;
+4. Select Source: Deploy from a branch and Branch: main / root;
+5. Click Save and find your deployed website at an address shown on top od the page.
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+1. Open the Github repository at [https://github.com/mmnowak/zesthouse](https://github.com/mmnowak/zesthouse)
+2. Click on the fork button found in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+1. Open the Github repository at [https://github.com/mmnowak/zesthouse](https://github.com/mmnowak/zesthouse)
+2. Click on the Code button;
+3. Choose to clone using either HTTPS, SSH, or Github CLI and click the copy button to copy the link address;
+4. In a code editor, change the current working directory to location desired for the cloned directory;
+5. Type 'git clone' into the terminal and paste the link address copied earlier;
+6. Press enter to create a local clone.
   
 ##  Acknowledgments
 
