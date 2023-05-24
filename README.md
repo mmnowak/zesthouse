@@ -13,12 +13,9 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 ## Table of Content
 
 1. [Project Goals](#project-goals)
-    1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User Requirements and Expectations](#user-requirements-and-expectations)
-    3. [User Stories](#user-stories)
+    1. [User Requirements and Expectations](#user-requirements-and-expectations)
+    2. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Colour scheme](#colour-scheme)
     2. [Typography](#typography)
@@ -39,24 +36,56 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 7. [Credits](#credits)
     1. [Media](#media)
     2. [Code used](#code-used)
+    3. [Content](#content)
 8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 11. [Acknowledgements](#acknowledgements)
 
-## User Experience (UX)
+## Project Goals
+1. A website that can be navigated easily and intuitively.
+2. Easy access to the drink and food menu and prices.
+3. A visual representation of the products.
+4. Clearly presented information about the venue and avaliable facilities.
+5. Easy access for the user to contact the venue with questions and feedback.
+6. A clean design that catches the eye and represents the general 'vibe' of the venue.
+7. A website that looks good and responds correctly on all device sizes.
+8. A website that is accessible to all users.
+
+## User Experience
+
+### User Requirements and Expectations
+1. Links and buttons that work as expected.
+2. A simple and intuitive navigation system.
+3. Information presented in clear and concise manner.
+4. Visually appealing design.
+5. Easy way to submit questions and feedback.
+6. Accessibility.
 
 ### User Stories
 
-**First Time Visitor Goals**
+#### First-time Visitor
+1.	As a first-time user, I want to know what products the ZestHouse is selling.
+2.	As a first-time user, I want to know the prices.
+3.	As a first-time user, I want to know the location.
+4.	As a first-time user, I want to know opening times.
+5.	As a first-time user, I want to know facilities available.
+6.	As a first-time user, I want to easy contact the venue with any questions I might have.
+7.	As a first-time user, I want to know more about the venue and its history.
 
-* I want to find out what ZestHouse is and what facilities are avaliable
-* I want to find out where ZestHouse is
-* I want to be able to navigate the website with ease
+#### Returning Visitor
+8.	As a returning user, I want to be able to send my feedback easily.
+9.	As a returning user, I want to find the ZestHouse on social media.
+10.	As a returning user, I want to see photos from past events held at the venue that I attended.
 
-**Returning Visitor Goals**
-
-* I want to be able to contact ZestHouse easily with any questions or feedback i might have
-* I want to easly connect with their social media
+#### Site Owner
+11.	As the site owner, I want the users to be able to view the site on a range of device sizes.
+12.	As the site owner, I want to make it easy for potential customers to see facilities and features available.
+13.	As the site owner, I want to allow customers to contact the ZestHouse with their questions or feedback.
+14.	As the site owner, I want the users to easily find our menu and prices.
+15.	As the site owner, I want the users to be directed back to the homepage should they come across a 404 error.
+16.	As the site owner, I want the users to feel their questions and feedback are most welcome.
+17.	As the site owner, I want the customers to easily find directions to the venue.
+18. As the site owner, I want the users to be able to navigate the website easily.
 
 ## Design
 
@@ -107,6 +136,7 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 * Featured on all pages, the navigation bar is fully responsive and changes to a burger toggler menu on smaller screens.
 * The left of the navigation bar features a logo, which when clicked on leads to the index page. The right side contains links to the Home Page, About Us Page, Gallery, Menu Page and Contact Us Page.
 * The link to the page the user is currently on is indicated by a different colour background.
+* User stories covered: 11, 18.
 ![footer as seen on deskop](docs/features/navbar.png)
 ![footer as seen on mobile](docs/features/navbarmobile.png)
 
@@ -114,12 +144,14 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 * Featured on all pages.
 * Contains three sections: contact details, social media links and opening times.
 * Social media links are represented by easily identified icons.
+* User stories covered: 4, 6, 9.
 ![footer as seen on deskop](docs/features/footer.png)
 ![footer as seen on mobile](docs/features/footermobile.png)
 
 ### Index Page
 * Features a short text introducing the venue.
 * Includes two call-to-action buttons, leading to the Menu page and About Us Page.
+*  User stories covered: 11, 18
 ![two call-to-action buttons](docs/features/indexbuttons.png)
 
 ### About Us Page
@@ -129,9 +161,11 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 ![facilities section](docs/features/facilities.png)
 * Includes the venue location on an embeded Google Map.
 ![the map on the about us page](docs/features/map.png)
+* User stories covered: 3, 5, 7, 12.
 
 ### Gallery Page
 * A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
+* User stories covered: 10, 11.
 ![gallery page](docs/features/gallery.png)
 
 ### Menu Page
@@ -146,11 +180,30 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 
 ![back-to-top-button](docs/features/scrollup.png)
 
+* User stories covered: 1, 2, 11, 14, 18.
+
 ### Contact Us Page
 * Features a contact form which allows the user to easily contact the venue with any questions or feedback.
 ![the contact form](docs/features/form.png) 
 * Contains contact details such as an address, a phone number and an email address.
-![Menu carousel on deskop](docs/features/contact.png)
+
+![Contact info](docs/features/contact.png)
+
+* User stories covered: 3, 6, 8, 13.
+
+### Thank You Page
+* A message thanks the user for submitting the contact form.
+* Has a 'go back' button leading back to the contact.html page.
+* User stories covered: 16.
+
+![thank you page](docs/features/thankyoupage.png)
+
+### 404
+* Custom error page which contains a button leading back to the index page.
+* User stories covered: 15, 18.
+
+![404 page](docs/features/404.png)
+
 
 ### Accessibility
 The following steps were taken to ensure the website is accessible:
@@ -232,6 +285,146 @@ The website was tested on following browsers:
 * Opera
 * Microsoft Edge
 
+### Testing user stories
+
+#### First-time User Goals
+
+1. As a first-time user, I want to know what products the ZestHouse is selling.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Menu | Navigate to the menu page | See the product list | Works as expected |
+| Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
+
+2. As a first-time user, I want to know the prices.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Menu | Navigate to the menu page | See the prices | Works as expected |
+| Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
+
+3.	As a first-time user, I want to know the location.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| About Us | Navigate to the about us page and scroll down | Locate the map | Works as expected |
+| Contact Us | Navigate to the contact us page | Find the address | Works as expected |
+
+4.	As a first-time user, I want to know opening times.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Footer | Locate the footer | See the opening times | Works as expected |
+
+5.	As a first-time user, I want to know facilities available.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| About us | Navigate to the About us page | Scroll down to the facilities section | Works as expected |
+
+6.	As a first-time user, I want to easy contact the venue with any questions I might have.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Contact us | Navigate to the Contact us page | Use the form to submit a message | Works as expected |
+| Contact us | Navigate to the Contact us page | Click on the email address to send email | Works as expected |
+| Contact us | Navigate to the Contact us page | Click on the phone number to call | Works as expected |
+| Footer | Locate the footer | Click on the email address to send email | Works as expected |
+| Footer | Locate the footer | Click on the phone number to call | Works as expected |
+
+7.	As a first-time user, I want to know more about the venue and its history.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Button | Click on the 'Our Story' button on the menu page | Go to the About us page | Works as expected |
+| Index Page | Open the index page | Find the summary paragraph | Works as expected |
+| About us | Navigate to the About us page | Locate the Our Story section | Works as expected |
+
+#### Returning User 
+
+8.	As a returning user, I want to be able to send my feedback easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Contact us | Navigate to the Contact us page | Use the form to submit a message | Works as expected |
+| Contact us | Navigate to the Contact us page | Click on the email address to send email | Works as expected |
+| Footer | Locate the footer | Click on the email address to send email | Works as expected |
+
+9.	As a returning user, I want to find the venue on social media.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Footer | Locate the footer | Click on the social media icons | Works as expected |
+
+10.	As a returning user, I want to see photos from past events held at the venue that I attended.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Gallery | Navigate to the gallery page | View gallery images | Works as expected |
+
+#### Site owner goals
+
+11.	As the site owner, I want the users to be able to view the site on a range of device sizes.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Navigation bar | Open any link | Go to desired page and view on device | Works as expected |
+
+12.	As the site owner, I want to make it easy for potential customers to see facilities and features available.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| About us | Navigate to the About us page | Scroll down to the facilities section | Works as expected |
+
+13.	As the site owner, I want to allow customers to contact the ZestHouse with their questions or feedback.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Contact us | Navigate to the Contact us page | Use the form to submit a message | Works as expected |
+| Contact us | Navigate to the Contact us page | Click on the email address to send email | Works as expected |
+| Contact us | Navigate to the Contact us page | Click on the phone number to call | Works as expected |
+| Footer | Locate the footer | Click on the email address to send email | Works as expected |
+| Footer | Locate the footer | Click on the phone number to call | Works as expected |
+
+14.	As the site owner, I want the users to easily find our menu and prices.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Menu | Navigate to the menu page | See the product list | Works as expected |
+| Menu | Navigate to the menu page | See the prices | Works as expected |
+| Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
+
+15.	As the site owner, I want the users to be directed back to the homepage should they come across a 404 error.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Go back button | Click on the 'go back' button on the 404 error page | Find the homepage | Works as expected |
+| Logo | Click on the logo to navigate back to the index page | Find the homepage | Works as expected |
+| Logo | Click on the logo to navigate back to the index page | Find the homepage | Works as expected |
+| Navigation bar | Click any link to navigate back to desired page | Find desired page | Works as expected |
+
+
+16.	As the site owner, I want the users to feel their questions and feedback are most welcome.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Thank you page | Submit a message using the form | See the 'thank you' message | Works as expected |
+
+17.	As the site owner, I want the customers to easily find directions to the venue.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| About Us | Navigate to the about us page and scroll down | Locate the map | Works as expected |
+| Contact Us | Navigate to the contact us page | Find the address | Works as expected |
+
+18. As the site owner, I want the users to be able to navigate the website easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|:-----------:|:----------:|:-------------------:|:-----------------:|
+| Navigation bar | Click any link to go to desired page | Find desired page | Works as expected |
+| Call to action buttons | Click on the buttons to go to a relevant page or section | Find the relevant page or section | Works as expected |
+| Back-to-top button on the menu page| Click on the button to go back to the menu overview | Scroll up | Works as expected |
+
 ## Credits
 
 ### Media
@@ -295,10 +488,11 @@ Content for the website was written by Martyna Nowak.
 ## Bugs
 
 ### Solved bugs
-* ##### Footer
+* #### Footer
 On the pages containing smaller amount of content, such as index.html and contact.html, footer was positioned halfway up the page instead of at the bottom. I tried various solutions, such as adding a sticky-bottom class or position: absolute or setting bottom margin to 0; none of them worked appropriately. While position: fixed achieved the goal of keeping the footer at the bottom on all the pages, it caused the footer to obscure content on some pages. I created id 'ftr' to apply position:fixed property only to pages with small amount of content. However, some elements were still obscured while viewing the page on mobile. My final solution was to use media query and apply position:fixed to id 'ftr' only for medium- and large-sized devices. According to manual testing carried on using Google Developer Tools, the solution worked and the footer remains at the bottom of all the pages on all devices without obscuring any content.
-* ##### Horizontal Overflow
+* #### Horizontal Overflow
 A horizontal scrollbar kept appearing while viewing the website on mobile. As reccomended to me on slack, I used Unicorn Revealer Chrome Extension to try and find out which element causes the overflowing, but to no avail. Finally, I followed an instruction from https://www.smashingmagazine.com/ and added a JavaScript snippet to the browser console. This showed that the culprit was 'row' element within the footer. The overflow was fixed by adding 'm-0' class to the element.
+![the javascript snippet used](docs/features/bug1.png)
 
 
 ## Deployment

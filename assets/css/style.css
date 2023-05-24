@@ -108,13 +108,16 @@ html {
 
     #about {
       background-color: rgba(242, 211, 99, 0.9);
-      font-family: 'Anek Bangla', sans-serif;
-      color: #084208;
       text-align: center;
+      width: 70%;
     }
 
     #about h4 {
-      padding: 5%;
+      padding: 0 5% 5% 5%;
+    }
+
+    #about h1 {
+      padding-top: 5%;
     }
 
     #address {
@@ -315,7 +318,7 @@ html {
 
   /*-------------------MEDIA QUERIES  */  
      
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 576px) {
 
       /* MENU CAROUSEL FOR SMALL SCREENS */     
       .carous-large {
@@ -335,7 +338,7 @@ html {
     }
    
       /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
-      @media screen and (min-width: 768px)
+      @media screen and (min-width: 577px)
      {        
       .carous-small {
       display: none; }
