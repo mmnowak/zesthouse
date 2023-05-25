@@ -48,14 +48,14 @@ The ZestHouse Juice Bar website is designed to be accessible and responsive on a
 
 ### Overview
 
-The main purpose of the project is to create an easy to use and visually appealing website for ZestHouse Juice Bar, a venue serving healthy drinks and snacks. The website is supposed to feature important information, such as prices, opening times, and avaliable facilities. It is designed to be user friendly and concise.
+The main purpose of the project is to create an easy-to-use and visually appealing website for ZestHouse Juice Bar, a venue serving healthy drinks and snacks. The website is supposed to feature important information, such as prices, opening times, and available facilities. It is designed to be user-friendly and concise.
 
 ### Goals
 
 1. A website that can be navigated easily and intuitively.
 2. Easy access to the drink and food menu and prices.
 3. A visual representation of the products.
-4. Clearly presented information about the venue and avaliable facilities.
+4. Clearly presented information about the venue and available facilities.
 5. Easy access for the user to contact the venue with questions and feedback.
 6. A clean design that catches the eye and represents the general 'vibe' of the venue.
 7. A website that looks good and responds correctly on all device sizes.
@@ -65,7 +65,7 @@ The main purpose of the project is to create an easy to use and visually appeali
 
 ### Target Audience
 * All age groups;
-* Health conscious people;
+* Health-conscious people;
 * People wanting to buy delicious drinks, either to sit in or takeaway;
 * People looking for a venue to remote work at;
 * Groups looking for a venue that can be booked for events.
@@ -84,9 +84,9 @@ The main purpose of the project is to create an easy to use and visually appeali
 1.	As a first-time user, I want to know what products the ZestHouse is selling.
 2.	As a first-time user, I want to know the prices.
 3.	As a first-time user, I want to know the location.
-4.	As a first-time user, I want to know opening times.
-5.	As a first-time user, I want to know facilities available.
-6.	As a first-time user, I want to easy contact the venue with any questions I might have.
+4.	As a first-time user, I want to know the opening times.
+5.	As a first-time user, I want to know the facilities available.
+6.	As a first-time user, I want to easily contact the venue with any questions I might have.
 7.	As a first-time user, I want to know more about the venue and its history.
 
 #### Returning Visitor
@@ -96,8 +96,8 @@ The main purpose of the project is to create an easy to use and visually appeali
 
 #### Site Owner
 11.	As the site owner, I want the users to be able to view the site on a range of device sizes.
-12.	As the site owner, I want to make it easy for potential customers to see facilities and features available.
-13.	As the site owner, I want to allow customers to contact the ZestHouse with their questions or feedback.
+12.	As the site owner, I want to make it easy for potential customers to see the facilities and features available.
+13.	As the site owner, I want to allow customers to contact ZestHouse with their questions or feedback.
 14.	As the site owner, I want the users to easily find our menu and prices.
 15.	As the site owner, I want the users to be directed back to the homepage should they come across a 404 error.
 16.	As the site owner, I want the users to feel their questions and feedback are most welcome.
@@ -109,7 +109,7 @@ The main purpose of the project is to create an easy to use and visually appeali
 ### Colour Scheme
 ![The colour palette](docs/features//palette.png)
 
-Two of the colours (#c92324 and #ea861a) used were chosen using a color picker from the background image (see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colors used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter color (#f2d363) was choosen for the background, bringing the contrast ratio score to 7.96:1.
+Two of the colours (#c92324 and #ea861a) used were chosen using a colour picker from the background image (see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colours used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter colour (#f2d363) was chosen for the background, bringing the contrast ratio score to 7.96:1.
 
 
 ### Typography
@@ -125,7 +125,7 @@ A [font pairing website](http://www.ourownthing.co.uk/fontpairing/) was then use
 
 ### Imagery
 
-The image main image, used for the background, was chosen due to its vibrant colours and the fruit looking like its bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
+The image main image, used for the background, was chosen due to its vibrant colours and the fruit looking like it is bursting with flavour and vitamins. It is supposed to be associated with concepts such as freshness, nutrition, health and wellness. 
 
 ![halved oranges and pomagranates](docs/features/citrussmall.jpg)
 
@@ -187,19 +187,19 @@ Wireframes were created for mobile and desktop using Balsamiq software.
 ### About Us Page
 * Includes a paragraph introducing the owners and the idea behind the business.
 ![about us page](docs/features/about.png)
-* Features description of facilities avaliable, accompanied by relevant pictures.
+* Features description of facilities available, accompanied by relevant pictures.
 ![facilities section](docs/features/facilities.png)
-* Includes the venue location on an embeded Google Map.
+* Includes the venue location on an embedded Google Map.
 ![the map on the about us page](docs/features/map.png)
 * User stories covered: 3, 5, 7, 12.
 
 ### Gallery Page
-* A masonry style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
+* A masonry-style picture gallery. Arranged in three columns on large- and medium-sized devices, and a single column on small screens.
 * User stories covered: 10, 11.
 ![gallery page](docs/features/gallery.png)
 
 ### Menu Page
-* The menu overview takes form of a carousel containing cards, each card representing a menu section with a corresponding title and image. It shows three cards per slide on medium and large devices and one card per slide on small devices. It contains nine sections (Cold pressed juices, tropical juices, smoothies, smoothie bowls, juice shots, slushies, hot drinks, alcoholic drinks and snacks). 
+* The menu overview takes the form of a carousel containing cards, each card representing a menu section with a corresponding title and image. It shows three cards per slide on medium and large devices and one card per slide on small devices. It contains nine sections (Cold pressed juices, tropical juices, smoothies, smoothie bowls, juice shots, slushies, hot drinks, alcoholic drinks and snacks). 
 * Allows the user to navigate via back and forward arrows, located at the top on small screens and at the sides on medium and large screens.
 
 ![Menu carousel on deskop](docs/features/menupagecarousel.jpg)
@@ -317,15 +317,15 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 ### Performance tests on various devices
 
-The website was used on following devices:
+The website was used on the following devices:
 * Thinkpad Yoga 460
 * Xiaomi 11 Lite
 
-As well as on all avaliable device options when using Google Chrome Developer tools.
+As well as on all available device options when using Google Chrome Developer tools.
 
 ### Browser compatibility
 
-The website was tested on following browsers:
+The website was tested on the following browsers:
 
 * Google Chrome
 * Opera
@@ -355,6 +355,7 @@ The website was tested on following browsers:
 
 <details><summary>Find the prices</summary>
 <img src="docs/gifs/pricesbutton.gif">
+
 <img src="docs/gifs/priceslink.gif">
 </details>
 
@@ -382,13 +383,17 @@ The website was tested on following browsers:
 <img src="docs/gifs/openingtimes.gif">
 </details>
 
-5.	As a first-time user, I want to know facilities available.
+5.	As a first-time user, I want to know the facilities available.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | About us | Navigate to the About us page | Scroll down to the facilities section | Works as expected |
 
-6.	As a first-time user, I want to easy contact the venue with any questions I might have.
+<details><summary>Find the facilities section</summary>
+<img src="docs/gifs/facilities.gif">
+</details>
+
+6.	As a first-time user, I want to easily contact the venue with any questions I might have.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
@@ -404,11 +409,13 @@ The website was tested on following browsers:
 
 <details><summary>Send email</summary>
 <img src="docs/gifs/emailbox.gif">
+
 <img src="docs/gifs/emailfooter.gif">
 </details>
 
 <details><summary>Make a call</summary>
 <img src="docs/gifs/phonebox.gif">
+
 <img src="docs/gifs/phonefooter.gif">
 </details>
 
@@ -419,6 +426,10 @@ The website was tested on following browsers:
 | Button | Click on the 'Our Story' button on the menu page | Go to the About us page | Works as expected |
 | Index Page | Open the index page | Find the summary paragraph | Works as expected |
 | About us | Navigate to the About us page | Locate the Our Story section | Works as expected |
+
+<details><summary>Find the About Us page</summary>
+<img src="docs/gifs/aboutus.gif">
+</details>
 
 #### Returning User 
 
@@ -434,11 +445,27 @@ The website was tested on following browsers:
 <img src="docs/gifs/contactform.gif">
 </details>
 
+<details><summary>Send email</summary>
+<img src="docs/gifs/emailbox.gif">
+
+<img src="docs/gifs/emailfooter.gif">
+</details>
+
+<details><summary>Make a call</summary>
+<img src="docs/gifs/phonebox.gif">
+
+<img src="docs/gifs/phonefooter.gif">
+</details>
+
 9.	As a returning user, I want to find the venue on social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | Footer | Locate the footer | Click on the social media icons | Works as expected |
+
+<details><summary>Find the social media section</summary>
+<img src="docs/gifs/socialmedia.gif">
+</details>
 
 10.	As a returning user, I want to see photos from past events held at the venue that I attended.
 
@@ -458,7 +485,7 @@ The website was tested on following browsers:
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | Navigation bar | Open any link | Go to desired page and view on device | Works as expected |
 
-12.	As the site owner, I want to make it easy for potential customers to see facilities and features available.
+12.	As the site owner, I want to make it easy for potential customers to see the facilities and features available.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
@@ -468,7 +495,7 @@ The website was tested on following browsers:
 <img src="docs/gifs/facilities.gif">
 </details>
 
-13.	As the site owner, I want to allow customers to contact the ZestHouse with their questions or feedback.
+13.	As the site owner, I want to allow customers to contact ZestHouse with their questions or feedback.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
@@ -478,6 +505,22 @@ The website was tested on following browsers:
 | Footer | Locate the footer | Click on the email address to send email | Works as expected |
 | Footer | Locate the footer | Click on the phone number to call | Works as expected |
 
+<details><summary>Use the form</summary>
+<img src="docs/gifs/contactform.gif">
+</details>
+
+<details><summary>Send email</summary>
+<img src="docs/gifs/emailbox.gif">
+
+<img src="docs/gifs/emailfooter.gif">
+</details>
+
+<details><summary>Make a call</summary>
+<img src="docs/gifs/phonebox.gif">
+
+<img src="docs/gifs/phonefooter.gif">
+</details>
+
 14.	As the site owner, I want the users to easily find our menu and prices.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -485,6 +528,12 @@ The website was tested on following browsers:
 | Menu | Navigate to the menu page | See the product list | Works as expected |
 | Menu | Navigate to the menu page | See the prices | Works as expected |
 | Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
+
+<details><summary>Find the prices</summary>
+<img src="docs/gifs/pricesbutton.gif">
+
+<img src="docs/gifs/priceslink.gif">
+</details>
 
 15.	As the site owner, I want the users to be directed back to the homepage should they come across a 404 error.
 
@@ -497,6 +546,7 @@ The website was tested on following browsers:
 
 <details><summary>Go back from the 404 page</summary>
 <img src="docs/gifs/404button.gif">
+
 <img src="docs/gifs/404logo.gif">
 </details>
 
@@ -517,6 +567,13 @@ The website was tested on following browsers:
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | About Us | Navigate to the about us page and scroll down | Locate the map | Works as expected |
 | Contact Us | Navigate to the contact us page | Find the address | Works as expected |
+
+<details><summary>Find the map</summary>
+<img src="docs/gifs/map.gif">
+</details>
+<details><summary>Find the address</summary>
+<img src="docs/gifs/address.gif">
+</details>
 
 18. As the site owner, I want the users to be able to navigate the website easily.
 
@@ -594,14 +651,14 @@ Content for the website was written by Martyna Nowak.
 
 ### Solved bugs
 * #### Footer
-On the pages containing smaller amount of content, such as index.html and contact.html, footer was positioned halfway up the page instead of at the bottom. I tried various solutions, such as adding a sticky-bottom class or position: absolute or setting bottom margin to 0; none of them worked appropriately. While position: fixed achieved the goal of keeping the footer at the bottom on all the pages, it caused the footer to obscure content on some pages. I created id 'ftr' to apply position:fixed property only to pages with small amount of content. However, some elements were still obscured while viewing the page on mobile. My final solution was to use media query and apply position:fixed to id 'fixed-footer' only for medium- and large-sized devices. According to manual testing carried on using Google Developer Tools, the solution worked and the footer remains at the bottom of all the pages on all devices without obscuring any content.
+On the pages containing a smaller amount of content, such as index.html and contact.html, the footer was positioned halfway up the page instead of at the bottom. I tried various solutions, such as adding a sticky-bottom class or position: absolute or setting the bottom margin to 0; none of them worked appropriately. While position: fixed achieved the goal of keeping the footer at the bottom on all the pages, it caused the footer to obscure content on some pages. I created id 'fixed-footer' to apply position:fixed property only to pages with a small amount of content. However, some elements were still obscured while viewing the page on mobile. My final solution was to use media query and apply position:fixed to id 'fixed-footer' only for medium- and large-sized devices. According to manual testing carried on using Google Developer Tools, the solution worked and the footer remains at the bottom of all the pages on all devices without obscuring any content.
 * #### Horizontal Overflow
 A horizontal scrollbar kept appearing while viewing the website on mobile. As recommended to me on slack, I used Unicorn Revealer Chrome Extension to try and find out which element causes the overflowing, but to no avail. Finally, I followed an instruction from https://www.smashingmagazine.com/ and added a JavaScript snippet to the browser console. This showed that the culprit was a 'row' element within the footer. The overflow was fixed by adding 'm-0' class to the element.
 
 ![the javascript snippet used](docs/features/bug1.png)
 
 * #### Contact Info Overlap
-One of my peers on Slack pointed out that the contact information on the Contact Us page was overlapping when viewed on certain screen sizes. This was fixed by setting the 'overflow-wrap' property to 'break-word'. While this is not the optimal solution, as words breaking at random points can create a bad user experience, it was the only solution I found that stopped the content from overlapping. On most of devices avaliable on Google Developer Tools, however, the text is aligned correctly without breaks mid-word. Perhaps future update can implement a solution that keeps the contact info formatted properly on all screen sizes.
+One of my peers on Slack pointed out that the contact information on the Contact Us page was overlapping when viewed on certain screen sizes. This was fixed by setting the 'overflow-wrap' property to 'break-word'. While this is not the optimal solution, as words breaking at random points can create a bad user experience, it was the only solution I found that stopped the content from overlapping. On most of the devices avaliable on Google Developer Tools, however, the text is aligned correctly without breaking mid-word. Perhaps future updates can implement a solution that keeps the contact info formatted properly on all screen sizes.
 
 Before:
 
@@ -618,7 +675,7 @@ After:
 2. Click on the Settings button;
 3. Select Pages;
 4. Select Source: Deploy from a branch and Branch: main / root;
-5. Click Save and find your deployed website at an address shown on top od the page.
+5. Click Save and find your deployed website at an address shown on top of the page.
 
 ### Local Development
 
@@ -632,11 +689,13 @@ After:
 1. Open the Github repository at [https://github.com/mmnowak/zesthouse](https://github.com/mmnowak/zesthouse)
 2. Click on the Code button;
 3. Choose to clone using either HTTPS, SSH, or Github CLI and click the copy button to copy the link address;
-4. In a code editor, change the current working directory to location desired for the cloned directory;
+4. In a code editor, change the current working directory to the location desired for the cloned directory;
 5. Type 'git clone' into the terminal and paste the link address copied earlier;
 6. Press enter to create a local clone.
   
 ##  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to express my gratitude to:
+* My mentor, Mo Shami, for his guidance, support and advice;
+* My peers and alumni on the Code Institute Slack who took the time to review my page and provide their feedback.
 
