@@ -109,7 +109,7 @@ The main purpose of the project is to create an easy to use and visually appeali
 ### Colour Scheme
 ![The colour palette](docs/features//palette.png)
 
-Two of the colours (#c92324 and #ea861a) used were chosen using a color picker from the background image(see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colors used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter color (#f2d363) was choosen for the background, bringing the contrast ratio score to 7.96:1.
+Two of the colours (#c92324 and #ea861a) used were chosen using a color picker from the background image (see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colors used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter color (#f2d363) was choosen for the background, bringing the contrast ratio score to 7.96:1.
 
 
 ### Typography
@@ -342,7 +342,9 @@ The website was tested on following browsers:
 | Menu | Navigate to the menu page | See the product list | Works as expected |
 | Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
 
-![the javascript snippet used](docs/gifs/userstory1.gif)
+<details><summary>Index Page</summary>
+<img src="docs/docs/menubutton (1).gif">
+</details>
 
 2. As a first-time user, I want to know the prices.
 
