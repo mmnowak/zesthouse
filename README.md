@@ -342,8 +342,8 @@ The website was tested on following browsers:
 | Menu | Navigate to the menu page | See the product list | Works as expected |
 | Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
 
-<details><summary>Index Page</summary>
-<img src="docs/docs/menubutton (1).gif">
+<details><summary>Find Menu Page</summary>
+<img src="docs/gifs/menubutton.gif">
 </details>
 
 2. As a first-time user, I want to know the prices.
@@ -353,6 +353,11 @@ The website was tested on following browsers:
 | Menu | Navigate to the menu page | See the prices | Works as expected |
 | Button | Click on the 'See Menu' button on the menu page | Go to the menu | Works as expected |
 
+<details><summary>Find the prices</summary>
+<img src="docs/gifs/pricesbutton.gif">
+<img src="docs/gifs/priceslink.gif">
+</details>
+
 3.	As a first-time user, I want to know the location.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -360,11 +365,22 @@ The website was tested on following browsers:
 | About Us | Navigate to the about us page and scroll down | Locate the map | Works as expected |
 | Contact Us | Navigate to the contact us page | Find the address | Works as expected |
 
+<details><summary>Find the map</summary>
+<img src="docs/gifs/map.gif">
+</details>
+<details><summary>Find the address</summary>
+<img src="docs/gifs/address.gif">
+</details>
+
 4.	As a first-time user, I want to know opening times.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | Footer | Locate the footer | See the opening times | Works as expected |
+
+<details><summary>Find the opening times</summary>
+<img src="docs/gifs/openingtimes.gif">
+</details>
 
 5.	As a first-time user, I want to know facilities available.
 
@@ -381,6 +397,20 @@ The website was tested on following browsers:
 | Contact us | Navigate to the Contact us page | Click on the phone number to call | Works as expected |
 | Footer | Locate the footer | Click on the email address to send email | Works as expected |
 | Footer | Locate the footer | Click on the phone number to call | Works as expected |
+
+<details><summary>Use the form</summary>
+<img src="docs/gifs/contactform.gif">
+</details>
+
+<details><summary>Send email</summary>
+<img src="docs/gifs/emailbox.gif">
+<img src="docs/gifs/emailfooter.gif">
+</details>
+
+<details><summary>Make a call</summary>
+<img src="docs/gifs/phonebox.gif">
+<img src="docs/gifs/phonefooter.gif">
+</details>
 
 7.	As a first-time user, I want to know more about the venue and its history.
 
@@ -400,6 +430,10 @@ The website was tested on following browsers:
 | Contact us | Navigate to the Contact us page | Click on the email address to send email | Works as expected |
 | Footer | Locate the footer | Click on the email address to send email | Works as expected |
 
+<details><summary>Use the form</summary>
+<img src="docs/gifs/contactform.gif">
+</details>
+
 9.	As a returning user, I want to find the venue on social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -411,6 +445,10 @@ The website was tested on following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | Gallery | Navigate to the gallery page | View gallery images | Works as expected |
+
+<details><summary>Find the gallery</summary>
+<img src="docs/gifs/gallery.gif">
+</details>
 
 #### Site owner goals
 
@@ -425,6 +463,10 @@ The website was tested on following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | About us | Navigate to the About us page | Scroll down to the facilities section | Works as expected |
+
+<details><summary>Find the facilities section</summary>
+<img src="docs/gifs/facilities.gif">
+</details>
 
 13.	As the site owner, I want to allow customers to contact the ZestHouse with their questions or feedback.
 
@@ -453,12 +495,21 @@ The website was tested on following browsers:
 | Logo | Click on the logo to navigate back to the index page | Find the homepage | Works as expected |
 | Navigation bar | Click any link to navigate back to desired page | Find desired page | Works as expected |
 
+<details><summary>Go back from the 404 page</summary>
+<img src="docs/gifs/404button.gif">
+<img src="docs/gifs/404logo.gif">
+</details>
+
 
 16.	As the site owner, I want the users to feel their questions and feedback are most welcome.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |:-----------:|:----------:|:-------------------:|:-----------------:|
 | Thank you page | Submit a message using the form | See the 'thank you' message | Works as expected |
+
+<details><summary>See a Thankyou Page</summary>
+<img src="docs/gifs/thankyou.gif">
+</details>
 
 17.	As the site owner, I want the customers to easily find directions to the venue.
 
@@ -474,6 +525,10 @@ The website was tested on following browsers:
 | Navigation bar | Click any link to go to desired page | Find desired page | Works as expected |
 | Call to action buttons | Click on the buttons to go to a relevant page or section | Find the relevant page or section | Works as expected |
 | Back-to-top button on the menu page| Click on the button to go back to the menu overview | Scroll up | Works as expected |
+
+<details><summary>Back-to-top button</summary>
+<img src="docs/gifs/scrollup.gif">
+</details>
 
 ## Credits
 
