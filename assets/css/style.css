@@ -177,8 +177,6 @@ html {
       text-decoration: none;
       color: inherit;
      }
-
-    /*-------------------404 */  
     
     /*-------------------THANK YOU AND 404 PAGE */  
 
@@ -321,7 +319,7 @@ html {
 
   /*-------------------MEDIA QUERIES  */  
      
-   @media screen and (max-width: 576px) {
+   @media screen and (max-width: 767px) {
 
       /* MENU CAROUSEL FOR SMALL SCREENS */     
       .carous-large {
@@ -341,13 +339,17 @@ html {
     }
    
       /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
-      @media screen and (min-width: 577px)
+      @media screen and (min-width: 768px)
      {        
       .carous-small {
       display: none; }
+
+     }
     
        /* ALIGNING FOOTER AT THE BOTTOM FOR MEDIUM AND LARGE SCREENS */
-     #ftr {
+       @media screen and (min-width: 577px)
+       { 
+        #fixed-footer {
       position: fixed !important;
      }
      }
