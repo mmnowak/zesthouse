@@ -270,18 +270,22 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 See scores:
 
-[Index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Findex.html)
+[Index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Findex.html)
 
-[About.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fabout.html)
+[About.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Fabout.html)
 
-[Gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fgallery.html)
+[Gallery.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Fgallery.html)
 
-[Menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fmenu.html)
+[Menu.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Fmenu.html)
 
-[Contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io%2Fcontact.html)
+[Contact.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Fcontact.html)
+
+[Thank-you.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2Fthank-you.html)
+
+[404.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmmnowak.github.io%2Fzesthouse%2F404.html)
 
 ### CSS Validation
-The W3C Jigsaw CSS Validation Service was used to validate the css file for the website. No errors were found.
+The W3C Jigsaw CSS Validation Service was used to validate the css file for the website via file upload. No errors were found.
 ![CSS Validation score](docs/features/cssvalidation.png)
 
 ### Accessibility Testing
@@ -289,19 +293,24 @@ The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webs
 
 See scores:
 
-[Index.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/)
+[Index.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/index.html)
 
-[About.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/about.html)
+[About.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/about.html)
 
-[Gallery.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/gallery.html)
+[Gallery.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/gallery.html)
 
-[Menu.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/menu.html)
+[Menu.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/menu.html)
 
-[Contact.html](https://wave.webaim.org/report#/https://8000-mmnowak-milestoneprojec-kvzu7gsosff.ws-eu97.gitpod.io/contact.html)
+[Contact.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/contact.html)
+
+[Thank-you.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/thank-you.html)
+
+[404.html](https://wave.webaim.org/report#/https://mmnowak.github.io/zesthouse/404.html)
+
 
 ### Performance
 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. Three pages received a good score in all categories:
 
 <details><summary>Index Page</summary>
 <img src="docs/features/lighthouseindex.png">
@@ -311,8 +320,30 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="docs/features/lighthousegallery.png">
 </details>
 
-<details><summary>Contact UsPage</summary>
+<details><summary>Contact Us Page</summary>
 <img src="docs/features/lighthousecontact.png">
+</details>
+
+The remaining pages scored good in Accessibility, Best Practices, and SEO categories and average in Performance. I have taken some steps to improve the performance, such as changing all images to either avif or webp format, however the score still remained in the average bracket. This could be due to additional libraries, such as Bootstrap, being installed.
+
+<details><summary>About us Page</summary>
+<img src="docs/features/lighthouseabout.png">
+</details>
+
+<details><summary>Menu Page</summary>
+<img src="docs/features/lighthousemenu.png">
+</details>
+
+<details><summary>404 Page</summary>
+<img src="docs/features/lighthouse404.png">
+</details>
+
+<details><summary>Thank You Page</summary>
+<img src="docs/features/lighthousethankyou.png">
+</details>
+
+<details><summary>These are factors lowering down the score:</summary>
+<img src="docs/features/lighthousediag.png">
 </details>
 
 ### Performance tests on various devices
