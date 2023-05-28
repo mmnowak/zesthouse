@@ -354,6 +354,16 @@ The website was used on the following devices:
 
 As well as on all available device options when using Google Chrome Developer tools.
 
+See examples:
+
+<details><summary>Small screen: Iphone 5</summary>
+<img src="docs/features/testingiphone5.png">
+</details>
+
+<details><summary>Medium screen: Ipad Mini</summary>
+<img src="docs/features/testingipadmini.png">
+</details>
+
 ### Browser compatibility
 
 The website was tested on the following browsers:
