@@ -177,6 +177,7 @@ body
 #contactinfo a {
       text-decoration: none;
       color: inherit;
+      overflow-wrap: break-word;
      }
     
 /*-------------------THANK YOU AND 404 PAGES */  
