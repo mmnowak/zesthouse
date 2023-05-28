@@ -107,7 +107,7 @@ The main purpose of the project is to create an easy-to-use and visually appeali
 ## Design
 
 ### Colour Scheme
-![The colour palette](docs/features//palette.png)
+![The colour palette](docs/features/palette.png)
 
 Two of the colours (#c92324 and #ea861a) used were chosen using a colour picker from the background image (see the Imagery section below). Then a [colour palette generator](http://colormind.io/bootstrap/) was used to choose complimentary colours (#084208 and #f4f7f9). [The contrast checker](https://webaim.org/resources/contrastchecker/) showed that the contrast between the navbar background and text is good (ratio 10.88:1). However, the contrast ratio was too low for the colours used for the main paragraphs (#ea861a for the background and #084208 for the text). Thus, to improve accessibility, a lighter colour (#f2d363) was chosen for the background, bringing the contrast ratio score to 7.96:1.
 
