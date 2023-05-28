@@ -12,7 +12,7 @@ body
 
 #citrus-background {
     background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
-    background-size: cover;
+    background-size: cover !important;
    }
 
    /*----------------------NAVIGATION BAR */
