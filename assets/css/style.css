@@ -3,53 +3,53 @@ html {
     width: 100%;
       }
   
-   body 
+body 
    { 
     font-family: "Viga", sans-serif;
     position: relative;
     min-height: 100%;
    }
 
-   #citrus-background {
+#citrus-background {
     background: #ea861a url("../images/citrus.avif") no-repeat fixed !important;
     background-size: cover;
    }
 
    /*----------------------NAVIGATION BAR */
-    
-    .navbar {
-      background-color: #084208;
-      position: sticky;
-      border-bottom: 10px dotted #c92324;
-      top: 0;
+  
+.navbar {
+    background-color: #084208;
+    position: sticky;
+    border-bottom: 10px dotted #c92324;
+    top: 0;
             }
           
-    #logo {
-      color: #f2d363;
-      font-family: "Viga", sans-serif;
-      text-align: left;
-      text-decoration: none;
-      text-shadow: 3px 3px 0 #c92324,
-      3px -3px 0 #c92324,
-      -3px 3px 0 #c92324,
-      -3px -3px 0 #c92324,
-      3px 0px 0 #c92324,
-      0px 3px 0 #c92324,
-      -3px 0px 0 #c92324,
-      0px -3px 0 #c92324;             
+#logo {
+    color: #f2d363;
+    font-family: "Viga", sans-serif;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 #c92324,
+    3px -3px 0 #c92324,
+    -3px 3px 0 #c92324,
+    -3px -3px 0 #c92324,
+     3px 0px 0 #c92324,
+     0px 3px 0 #c92324,
+     -3px 0px 0 #c92324,
+     0px -3px 0 #c92324;             
           }
 
-    .navbar-toggler {
-      color: #f4f7f9 !important; 
-      border: 2px solid #f4f7f9 !important;
-      background-color: #c92324 !important;
-      text-align: center;
-      margin-right: 20px;
-      text-decoration: none;   
-      float: right !important;
+.navbar-toggler {
+    color: #f4f7f9 !important; 
+    border: 2px solid #f4f7f9 !important;
+    background-color: #c92324 !important;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;   
+    float: right !important;
        }
 
-     .nav-link {
+.nav-link {
     font-family: 'Anek Bangla', sans-serif;
     color: #f4f7f9 !important;
     text-transform: uppercase;
@@ -58,73 +58,73 @@ html {
     white-space: nowrap;
   }  
    
- .navbar-nav li {
+.navbar-nav li {
   margin: 0 2%;
    }  
 
- .active-link
+.active-link
      {
-      background-color: #c92324;
+    background-color: #c92324;
      }
     
-     /*----------------------INDEX PAGE*/
+/*----------------------INDEX PAGE*/
 
-    .heading-style {
-      font-family: "Viga", sans-serif;
-      color: #084208;
-      font-weight: 500;
-      letter-spacing: 1.5px;
+.heading-style {
+    font-family: "Viga", sans-serif;
+    color: #084208;
+    font-weight: 500;
+    letter-spacing: 1.5px;
           }
 
-    .paragraph-style {
-      font-size: 1.5rem;
-      font-family: 'Anek Bangla', sans-serif;
-      color: #084208;
-      font-weight: 500;      
+.paragraph-style {
+    font-size: 1.5rem;
+    font-family: 'Anek Bangla', sans-serif;
+    color: #084208;
+    font-weight: 500;      
               }
 
-    #hero {
-      background-color: rgba(242, 211, 99, 0.9);
-      margin: 5% 10% 2% 10%;  
-      text-align: center;
+#hero {
+    background-color: rgba(242, 211, 99, 0.9);
+    margin: 5% 10% 2% 10%;  
+    text-align: center;
             }
 
-    .hero-btn {
-      background-color: #084208 !important;
-      color: #f4f7f9 !important;
-      font-family: "Viga", sans-serif !important;
+.hero-btn {
+    background-color: #084208 !important;
+    color: #f4f7f9 !important;
+    font-family: "Viga", sans-serif !important;
     }        
     
-    /*----------------------ABOUT US PAGE*/
+/*----------------------ABOUT US PAGE*/
 
-    #facilities-container {background-color: #084208;}
+#facilities-container {background-color: #084208;}
 
-    .facilities { 
+.facilities { 
       color: #f4f7f9;
       font-family: 'Anek Bangla', sans-serif;
     }
 
-    .facilities-img {
+.facilities-img {
       max-height: 200px;
       max-width: 200px;
       border-radius: 50%;
     }
 
-    #about {
+#about {
       background-color: rgba(242, 211, 99, 0.9);
       text-align: center;
       width: 70%;
     }
 
-    #about h4 {
+#about h4 {
       padding: 0 5% 5% 5%;
     }
 
-    #about h1 {
+#about h1 {
       padding-top: 5%;
     }
 
-    #address {
+#address {
       text-align: center;
       background-color: rgba(242, 211, 99, 0.9);
       padding: 2em 0;
@@ -132,19 +132,19 @@ html {
       color: #084208;
     }
 
-    #map {
+#map {
       height: 250px;
        width: 70%
       }
 
-     /*----------------------CONTACT US PAGE*/
+/*----------------------CONTACT US PAGE*/
 
-     #contactus {
+#contactus {
       background-color: rgba(242, 211, 99, 0.8);
       margin-top: 0;
      }
 
-     #contactform {
+#contactform {
       background-color: #c92324;
       color: #f4f7f9;
       margin: 6% auto;
@@ -152,13 +152,13 @@ html {
       font-family: 'Anek Bangla', sans-serif;
           }     
 
-     #contactform button {
+#contactform button {
       color: #f4f7f9;
       text-transform: uppercase;
       background-color: #084208;
      }
 
-     #contactinfo {
+#contactinfo {
       color: #084208;
       font-family: 'Anek Bangla', sans-serif;
       font-size: 1.5rem;
@@ -168,99 +168,100 @@ html {
       overflow-wrap: break-word;
                   }
 
-     #contactinfo h1{
+#contactinfo h1{
       text-align: center;
       font-family: 'Viga', sans-serif;
       color: #084208;
      }
 
-     #contactinfo a {
+#contactinfo a {
       text-decoration: none;
       color: inherit;
      }
     
-    /*-------------------THANK YOU AND 404 PAGE */  
+/*-------------------THANK YOU AND 404 PAGES */  
 
-    .message {
+.message {
       background-color: rgba(242, 211, 99, 0.8);
       color: #084208;
       text-align: center;
       font-family: 'Viga', sans-serif;
     }
 
-    .message a {
+.message a {
       background-color: #084208;
       color: #f4f7f9;
     }
 
-    .message a:hover {
+.message a:hover {
       background-color: #084208;
       color: #f4f7f9;
     }
 
-    /*-------------------MENU PAGE  */ 
+/*-------------------MENU PAGE  */ 
 
-    #menu-carous {
+#menu-carous {
       background-color: #f2d363;
       text-align: center;
       margin-bottom: 5rem;
       color: #084208;
     }
 
-    #menu-carous h1 {
+#menu-carous h1 {
       font-family: 'Viga', sans-serif;
     }
 
-    #menu-carous button {
+#menu-carous button {
       background-color: #084208;
       color: #f4f7f9;
     }
 
-    .card {
+.card {
       width: 18rem;
       margin: auto;
     }
 
-    .carous-large, .carous-small {
+.carous-large, .carous-small {
       font-family: 'Anek Bangla', sans-serif;
     }
     
-    .carous-large .btn {
+.carous-large .btn {
       background-color: #084208;
       color: #f4f7f9;
     }
     
-    .carous-small .btn {
+.carous-small .btn {
       background-color: #084208;
       color: #f4f7f9;
     }
 
-    .menu-prices {
+.menu-prices {
       background-color: #f2d363;
       color: #084208;
       font-family: 'Anek Bangla', sans-serif;
       text-transform: capitalize;
     }
 
-    .menu-prices h3 {
+.menu-prices h3 {
       font-family: 'Viga', sans-serif;
       text-align: center;
       text-transform: capitalize;
     }
 
-    #bck-to-top {
+#bck-to-top {
       color: #f4f7f9;
       background-color: #c92324; 
       border: 2px solid #f4f7f9;  
       float: right;
        }
 
-    .menu-img {
+.menu-img {
       width: 100%;
     }
+    
+/*--------------------GALLERY PAGE */
 
-  /*--------------------GALLERY PAGE */
-    #photogallery {
+#photogallery {
       clear: both;
       line-height: 0;
       column-count: 3;
@@ -268,23 +269,23 @@ html {
       background-color: #ea861a;
          }
      
-    #photogallery img {
+#photogallery img {
       width: 100%;
     }
-
-     /*----------------------FOOTER*/
-     footer {
+/*----------------------FOOTER*/
+     
+footer {
       width: 100%;
       background-color: #084208;
       color: #f4f7f9;
       bottom: 0 !important;
               }
       
-      footer div {
+footer div {
         text-align: center;
       }
           
-     .social {
+.social {
       width: 2.5em !important;
       height: 2.5em !important;
       border-radius: 50% !important;
@@ -293,63 +294,67 @@ html {
       text-decoration: none;
       border: 2px solid #f4f7f9 !important;
               }   
-    table {
+table {
     margin: auto;
      }
-     table th {
+
+table th {
       border: 2px solid;
-              }          
-     table td {
+              }  
+
+table td {
     border: 2px solid;
               } 
                     
-   footer h5 {
+footer h5 {
      font-family: 'Viga', sans-serif;
                     }
-    footer h6 {
+
+footer h6 {
       font-family: 'Anek Bangla', sans-serif; }
 
-    footer a {
+footer a {
       text-decoration: none;
       color: inherit;
     }  
 
-    footer a:hover {
+footer a:hover {
       color: #f2d363;
     }
 
-  /*-------------------MEDIA QUERIES  */  
+/*-------------------MEDIA QUERIES  */  
      
-   @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
-      /* MENU CAROUSEL FOR SMALL SCREENS */     
-      .carous-large {
+/* MENU CAROUSEL FOR SMALL SCREENS */     
+      
+.carous-large {
        display: none; }
          
-      .carousel-indicators{
+.carousel-indicators{
        position:absolute !important;
        right:0;
        top: 380px !important;
        left:0px; 
          }
          
-       /* GALLERY PAGE */
-     #photogallery{
-      column-count: 1;
+  /* GALLERY PAGE */
+  #photogallery{
+  column-count: 1;
      }
     }
    
-      /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */
-      @media screen and (min-width: 768px)
-     {        
+  
+  @media screen and (min-width: 768px)
+     {  
+ /* MENU CAROUSEL FOR MEDIUM AND LARGE SCREENS */     
       .carous-small {
       display: none; }
-
      }
     
-       /* ALIGNING FOOTER AT THE BOTTOM FOR MEDIUM AND LARGE SCREENS */
-       @media screen and (min-width: 577px)
-       { 
+  /* ALIGNING FOOTER AT THE BOTTOM FOR MEDIUM AND LARGE SCREENS */
+    @media screen and (min-width: 577px)
+      { 
         #fixed-footer {
       position: fixed !important;
      }
